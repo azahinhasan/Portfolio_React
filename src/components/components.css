@@ -124,4 +124,15 @@ li::before {
     .sideBar{
         display: none;
     }
+
+    .fastPage{
+        margin: 2% 0% 50%;
+        font-size: 58px;
+    }
+
+    .Skills{
+        display: block;
+        height: 350px;
+        margin: 310px 4%;
+    }
 }
