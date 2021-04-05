@@ -19,7 +19,7 @@ class Icons extends Component {
         <a href='https://www.facebook.com/a.h.zahin/' target='_blank'><img src={FB}/></a>
         <a href='https://github.com/azahinhasan' target='_blank'><img src={GitHub}/></a>
         <a href='https://www.instagram.com/potato.coderr/' target='_blank'><img src={Insta}/></a>
-        <a href='https://www.linkedin.com/in/ashhak-hasan-099455133/' target='_blank'><img src={LinkedIn}/></a>
+        <a name="hhh" href='https://www.linkedin.com/in/ashhak-hasan-099455133/' target='_blank'><img src={LinkedIn}/></a>
         
     </div>
 

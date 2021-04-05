@@ -17,15 +17,15 @@ class Skills extends Component {
             <li>HTML/HTML5</li>
             <li>CSS/CSS3</li>
             <li>JavaScript</li>
-            <li>Responsive Builds</li>
-            <li>Mobile Web Apps</li>
-            <li>Angular.js</li>
+            <li>WebSites/WebApps</li>
+            <li>Windows Apps</li>
+            <li>React.js</li>
             <li>Ajax</li>
-            <li>WordPress</li>
-            <li>Sass</li>
-            <li>Semantic Markup</li>
-            <li>Grunt/Gulp</li>
-            <li>Magento eCommerce</li>
+            <li>PHP</li>
+            <li>JAVA</li>
+            <li>ASP.Net</li>
+            <li>C#</li>
+            <li>Python</li>
         </ul>
 
     </div>
