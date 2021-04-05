@@ -68,7 +68,7 @@ a:link, a:visited {
 .Skills{
     display: block;
     /* border: 1px solid black; */
-    height: 350px;
+    height: 300px;
     margin: 250px 4%;
     position: relative;
     /* border-bottom: 2px solid rgb(0, 0, 0);  */
@@ -135,4 +135,20 @@ li::before {
         height: 350px;
         margin: 310px 4%;
     }
+}
+
+
+@media (max-device-width: 900px) {
+
+    li{
+        float: center;
+        margin: 2% 10%;
+    
+    }
+
+    
+    li::before {
+        content:  "";
+    }
+      
 }

@@ -12,8 +12,8 @@ class FastPage extends Component {
 
     return (
     <div className={classes.CvPart} id='CV'>
-        <h1 className={classes.CVH1}>Download My CV From here</h1>
-
+        <h1 className={classes.CVH1}>My CV</h1>
+        <br/>
         <a href={File} download>
             <button className={classesBtn.CVButton}>
                 Download CV

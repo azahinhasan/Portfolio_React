@@ -13,3 +13,12 @@
   }
   
 }
+
+@media (max-device-width: 900px) {
+  .AllInfo{
+    text-align: center;
+    width:87%;
+    left: 6%;
+  }
+  
+}

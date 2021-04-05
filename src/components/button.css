@@ -36,15 +36,25 @@
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    margin: 20px 40px;
+    margin: 20px 20px;
     transition-duration: 0.4s;
     cursor: pointer;
     width: 25%;
     border-radius: 5px;
     border: 2px solid #ffffff;
+    font-weight: bold;
   }
 
   .CVButton:hover {
     background-color: #333366;
     color: #ffffff;
   }
+
+
+  @media (max-width: 900px) {
+    .CVButton {
+      font-size: 20px;
+      width: 50%;
+      
+    }
+}
