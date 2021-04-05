@@ -7,11 +7,11 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 25px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    width: 15%;
+    width: 150px;
     border-radius: 5px;
     border: 2px solid #333366;
   }
@@ -24,4 +24,27 @@
   .startButton:hover {
     background-color: #ffffff;
     color: #333366;
+  }
+
+
+  .CVButton {
+    background-color: #ffffff; 
+    border: none;
+    color: #333366;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 20px 40px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 25%;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+  }
+
+  .CVButton:hover {
+    background-color: #333366;
+    color: #ffffff;
   }

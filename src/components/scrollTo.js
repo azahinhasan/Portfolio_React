@@ -10,15 +10,13 @@ class scrollTo extends Component {
   render() {
 
     return (
-    <div >
+    <div className={classes.scrollTo}>
         <Link 
         // className={classes.options}
         to={this.props.to}
         smooth={true} 
         duration={800}>
             {this.props.name}
-            <br/>
-            {this.props.className}
         </Link>
         
     </div>

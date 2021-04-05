@@ -3,6 +3,7 @@ import classes from './projects.css';
 import classesBtn from './button.css';
 import ProjectsMac from './projectsMachins';
 import Line from './line';
+import CvPart from './CVpart';
 class Projects extends Component {
 
   state={
@@ -44,8 +45,13 @@ class Projects extends Component {
             </div>
           )
           })}
+
+          <br/>
+          <CvPart/> 
         </div>
 
+      <br/>
+        {/* <CvPart/> */}
     </div>
 
 
