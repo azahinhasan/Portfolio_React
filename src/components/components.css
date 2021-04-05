@@ -119,3 +119,9 @@ li::before {
     font-weight: bold;
     color: #3f1a94;
 }
+
+@media (max-width: 900px) {
+    .sideBar{
+        display: none;
+    }
+}

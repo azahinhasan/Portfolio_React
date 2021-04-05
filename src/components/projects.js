@@ -39,13 +39,13 @@ class Projects extends Component {
               <div>
                 <ProjectsMac leng = {data.leng}/>
               </div>
+              <br/>
               <a href={data.sourceCode} target='_blank'>SourceCode </a>
               {data.liveView != ''? <a href={data.liveView} target='_blank'>| LiveView</a>:null}
               <br/><br/>
             </div>
           )
           })}
-
           <br/>
           <CvPart/> 
         </div>

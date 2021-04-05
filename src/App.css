@@ -5,3 +5,11 @@
   left: 22%;
   width:77%;
 }
+
+@media (max-width: 900px) {
+  .AllInfo{
+    left: 10%;
+    width:77%;
+  }
+  
+}

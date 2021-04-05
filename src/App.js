@@ -11,10 +11,10 @@ class App extends Component {
   render() {
 
     let bodyData='';
-    
+
   return (
     <div className="App">
-        <SideBar/>
+       
         <div className={classes.AllInfo}>
             <FastPage/>
             <AboutMe/>
@@ -22,6 +22,7 @@ class App extends Component {
             <Projects/>
             {/* <CvPart/> */}
         </div>
+        <SideBar/>
     </div>
 
 
