@@ -1,0 +1,74 @@
+h1,h2{
+    text-decoration: underline;
+    color: #3f1a94;
+}
+
+
+.sideBar{
+    display:block;
+    background-color: #333366;
+    color: white;
+    font-size:22px;
+    font-weight: bold;
+    width: 200px;
+    text-align:center;
+    height: 100vh;
+    /* padding: 18% 0; */
+    margin: 0px 0;
+    position: fixed;
+    top: 0%;
+}
+.options{
+    display: block;
+    border-bottom: 2px solid white;   
+    height: 38px;
+    margin: 60% 0px; 
+    cursor: pointer;
+
+}
+.fastPage{
+    display: block;
+    text-align: right;
+    /* padding: 20% 1%; */
+    margin: 190px 0% ;
+    font-size: 68px;
+    font-weight: bold;
+    height: 700px;
+
+}
+
+.midTextFastPage{
+    color: #3f1a94;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+a:link, a:visited {
+    color: white;
+
+    text-decoration: none;
+}
+
+.Skills{
+    display: block;
+    /* border: 1px solid black; */
+    height: 350px;
+    margin: 30% 4%;
+    /* border-bottom: 2px solid rgb(0, 0, 0);  */
+}
+li{
+    float: left;
+    width: 180px;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 2%;
+
+}
+
+li::before {
+    content:  "•";
+    color: #8b64e7;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em
+}

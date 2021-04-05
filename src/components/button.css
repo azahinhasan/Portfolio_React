@@ -1,0 +1,27 @@
+.startButton {
+    background-color: #333366; 
+    border: none;
+    
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 15%;
+    border-radius: 5px;
+    border: 2px solid #333366;
+  }
+
+
+.startButton:hover:after {
+    font-weight: bold;
+    content:" ↓↓";
+  }
+  .startButton:hover {
+    background-color: #ffffff;
+    color: #333366;
+  }
