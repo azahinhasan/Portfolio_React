@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import SideBar from './components/sideBar';
 import FastPage from './components/fastPage';
 import Skills from './components/skills';
+import Projects from './components/projects';
 import classes from './App.css';
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
             <FastPage/>
             
             <Skills/>
+            <Projects/>
         </div>
     </div>
 

@@ -10,6 +10,7 @@ class Skills extends Component {
     return (
     <div className={classes.Skills} id="skills">
         <Line/>
+        <br/>
         <h1>Skills</h1>
         <br/>
         <ul>

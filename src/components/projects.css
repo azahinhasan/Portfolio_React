@@ -1,0 +1,66 @@
+.Data {
+    width: 420px;
+    text-align: center;
+    border: 2px solid #3f1a94;
+    box-sizing: border-box;
+    margin: 4px 4px;
+    box-shadow: 1px ;
+
+    border-radius: 5px;
+    box-shadow: 2px 1px 5px grey;
+
+}
+
+/* .Data:hover,
+.Data:active {
+    background-color: #C0DDF5;
+} */
+
+.Datas {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    /* margin: 0px -40px ; */
+   
+    /* background-color: burlywood; */
+    align-items: left;
+    justify-content: left;
+}
+
+a:link, a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+Table {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+td {
+    padding:3px 5px;
+    border: 1px solid #3f1a94;
+}
+
+td:nth-child(even){
+    background-color: #3f1a94;
+    color:white;
+}
+
+.pName{
+    font-size: 20px;
+    font-weight: bold;
+    color:#3f1a94;
+    margin: 10px;
+}
+
+.Projects{
+    display: block;
+    height: 350px;
+    margin: 30% 4%;
+}
