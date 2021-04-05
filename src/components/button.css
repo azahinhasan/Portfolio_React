@@ -52,9 +52,21 @@
 
 
   @media (max-width: 900px) {
-    .CVButton {
-      font-size: 20px;
-      width: 50%;
-      
-    }
+
+
+}
+
+@media (max-device-width: 900px) {
+
+  .CVButton {
+    font-size: 20px;
+    width: 50%;
+  }
+
+  .startButton {
+    font-size: 18px;
+    width: 120px;
+    height: 50px;
+  }
+
 }

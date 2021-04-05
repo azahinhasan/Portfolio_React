@@ -63,3 +63,21 @@ td:nth-child(even){
 }
 
 
+@media (max-width: 900px) {
+    .Data {
+        width: 100%;
+    
+    }
+    
+    .Projects{
+        margin: 80% 4%;
+    }
+    
+}
+
+@media (max-width: 1226px) {
+    .Data {
+        width: 100%;
+    }
+
+}
