@@ -16,14 +16,12 @@ class ToggleSideBar extends Component {
             <div  className={classes.toggleSideBar}>
                 <div className={classes.toggleOptions} onClick={this.props.toggleBar}><ScrollTo toggleBar={this.props.toggleBar} name='About Me' to='AboutMe'/></div>
                 <div className={classes.toggleOptions} onClick={this.props.toggleBar}><ScrollTo toggleBar={this.props.toggleBar} name='Skills' to='skills'/></div>
-                <div className={classes.toggleOptions} onClick={this.props.toggleBar}><ScrollTo toggleBar={this.props.toggleBar} name='Projects' to='projects'/></div>
+                <div className={classes.toggleOptions} onClick={this.props.toggleBar}><ScrollTo toggleBar={this.props.toggleBar} name='Works' to='projects'/></div>
                 <div className={classes.toggleOptions} onClick={this.props.toggleBar}><ScrollTo toggleBar={this.props.toggleBar} name='CV' to='CV'/></div>
             </div>
         :null}
         <DrawerToggle clicked={this.props.toggleBar}/>
     </div>
-
-
 )}
 }
 
