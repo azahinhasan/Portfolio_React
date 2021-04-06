@@ -15,11 +15,11 @@ class AboutMe extends Component {
         <h1>About Me</h1>
         <p className={classes.AboutMePragraph}>
             Hi, My nickname is <span className={classes.highlightPra}>Zahin</span> 🖐🏽. Currently,I am doing Bsc in
-            Computer Science & Engineering 😬. It's my 11 Semester runing  🏃🏽‍♂️. I live in 
+            Computer Science & Engineering 💻 📚. It's my 11 Semester runing 😬 🏃🏽‍♂️. I live in 
             <span className={classes.highlightPra}> Dhaka, Bangladesh </span> 🏡.
             Also, I have experience with <span className={classes.highlightPra}>Full-Stack WebDevelopment</span> and
             <span className={classes.highlightPra}> Windows Application</span> 🤓. I shared some 
-            of my works in 'Works' part of the site 😄.
+            of my works in 'Works' part of the site 😄. 
         </p>
     </div>
 
