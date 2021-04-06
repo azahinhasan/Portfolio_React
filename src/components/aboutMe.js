@@ -13,9 +13,9 @@ class AboutMe extends Component {
     <div className={classes.AboutMe} id='AboutMe'>
         <Line/>
         <h1>About Me</h1>
-        <p>
-            Hi,My nickname is <span className={classes.highlightPra}>Zahin</span>.Currently,I am doing my Bsc in
-            Computer Science & Engineering. It's my 11 Semister. I live in <span className={classes.highlightPra}>Dhaka,Bangladesh</span>.
+        <p className={classes.AboutMePragraph}>
+            Hi, My nickname is <span className={classes.highlightPra}>Zahin</span>.Currently,I am doing my Bsc in
+            Computer Science & Engineering. It's my 11 Semister. I live in <span className={classes.highlightPra}>Dhaka, Bangladesh</span>.
             Also, I have some experience about <span className={classes.highlightPra}>Full-Stack WebDevelopment</span> and
             <span className={classes.highlightPra}> Windows Application</span>. I shared some 
             of my work at Project part of the site.

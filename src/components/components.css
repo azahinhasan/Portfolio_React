@@ -34,11 +34,9 @@ h1:hover,h2:hover{
     width: 200px;
     text-align:center;
     height: 100vh;
-    margin: 0px 0;
     position: fixed;
     top: 0%;
     box-shadow: 5px 5px 10px grey;
-    overflow-y: hidden;
 }
 
 
@@ -49,6 +47,7 @@ h1:hover,h2:hover{
     height: 38px;
     margin: 80% 0px; 
     cursor: pointer;
+    
 }
 
 /* .options:selected,.options:active{
@@ -85,7 +84,7 @@ h1:hover,h2:hover{
 img{
     width: 32px;
     cursor: pointer;
-    margin: 5px 10px;
+    margin: 8px 10px;
 }
 
 img:hover{
@@ -186,12 +185,12 @@ li::before {
 
     li{
         float: center;
-        margin: 2% 10%;
     }
 
-    
-    li::before {
-        content:  "";
+
+    Ul{
+        text-align: left;
+        margin: 2% 15%;
     }
 
     .fastPage{
@@ -200,6 +199,9 @@ li::before {
         height: 500px;
     }
 
+    .AboutMePragraph{
+        text-align: left;
+    }
 
     .midTextFastPage{
       font-size: 15px;
@@ -220,13 +222,13 @@ li::before {
 
     .toggleSideBar{
         
-        font-size:25px;
+        font-size:22px;
         width: 100%;
 
     }
 
     .toggleOptions{
-        margin-top: 35%;
+        margin: 18% 0%;
 
     }
 

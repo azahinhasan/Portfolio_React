@@ -56,6 +56,11 @@ td:nth-child(even){
     margin: 10px;
 }
 
+.pType{
+    font-weight: bold;
+    text-decoration: 2px underline;
+}
+
 .Projects{
     display: block;
     height: 350px;

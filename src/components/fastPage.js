@@ -16,10 +16,10 @@ class FastPage extends Component {
       <TypeWritter
         onInit={(type)=>{
           type
-          .changeDelay(200)
+          .changeDelay(100)
           .typeString('I Am<br/>')
           .pauseFor(800)
-          .typeString('Ashak Zahin Hasan')
+          .typeString('Ashak Zahin')
           .start();
         }}
       
