@@ -19,6 +19,13 @@ class FastPage extends Component {
                 Download CV
             </button>
         </a>
+        
+
+        <a href="mailto:azahinhasan@gmail.com?subject=Wanna Contact with You" target='_blank'>
+            <button className={classesBtn.CVButton}>
+                Let's Talk
+            </button>
+        </a>
 
     </div>
 

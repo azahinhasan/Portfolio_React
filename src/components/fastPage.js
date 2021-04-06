@@ -25,9 +25,9 @@ class FastPage extends Component {
       
       />
 
-        <div><span className={classes.midTextFastPage}>FullStack Web and Mobile App Developer</span></div>
+        <div><span className={classes.midTextFastPage}>FullStack Web and Windows App Developer</span></div>
         <Icons/>
-        <button className={classesBtn.startButton}>
+        <button onClick={this.props.startClick} className={classesBtn.startButton}>
             <ScrollTo name='Start' to='AboutMe'/>
         </button>
         

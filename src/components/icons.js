@@ -15,7 +15,7 @@ class Icons extends Component {
 
     return (
     <div className={classes.icons}>
-        <a href="mailto:azahinhasan@gmail.com?subject=FeedBack from My Portfolio" target='_blank'><img src={Mail}/></a>
+        <a href="mailto:azahinhasan@gmail.com?subject=Wanna Contact with You" target='_blank'><img src={Mail}/></a>
         <a href='https://www.facebook.com/a.h.zahin/' target='_blank'><img src={FB}/></a>
         <a href='https://github.com/azahinhasan' target='_blank'><img src={GitHub}/></a>
         <a href='https://www.instagram.com/potato.coderr/' target='_blank'><img src={Insta}/></a>

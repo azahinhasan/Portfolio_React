@@ -16,6 +16,7 @@ class SideBar extends Component {
         <div className={classes.options}><ScrollTo name='Skills' to='skills'/></div>
         <div className={classes.options}><ScrollTo name='Projects' to='projects'/></div>
         <div className={classes.options}><ScrollTo name='CV' to='CV'/></div>
+      
     </div>
 
 

@@ -70,7 +70,15 @@ td:nth-child(even){
     }
     
     .Projects{
-        margin: 80% 4%;
+        margin: 350px 4%;
+    }
+    
+}
+
+@media (max-width: 556px) {
+
+    .Projects{
+        margin: 550px 4%;
     }
     
 }

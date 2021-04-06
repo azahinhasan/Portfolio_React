@@ -1,9 +1,34 @@
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+  */
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333366; 
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3e3e7c; 
+}
+
+
+
+
 .AllInfo{
   display:block;
   /* border: 1px solid black; */
   position: relative;
   left: 22%;
   width:77%;
+
 }
 
 @media (max-width: 900px) {
@@ -20,5 +45,7 @@
     width:87%;
     left: 6%;
   }
+
+  
   
 }

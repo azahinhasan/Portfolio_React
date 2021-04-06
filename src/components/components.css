@@ -25,18 +25,63 @@ h1:hover,h2:hover{
     box-shadow: 5px 5px 10px grey;
 }
 
+.toggleSideBar{
+    display:block;
+    background-color: #333366;
+    color: white;
+    font-size:22px;
+    font-weight: bold;
+    width: 200px;
+    text-align:center;
+    height: 100vh;
+    margin: 0px 0;
+    position: fixed;
+    top: 0%;
+    box-shadow: 5px 5px 10px grey;
+    overflow-y: hidden;
+}
+
+
+
 .options{
     display: block;
     border-bottom: 2px solid white;   
     height: 38px;
     margin: 80% 0px; 
     cursor: pointer;
-
 }
+
+/* .options:selected,.options:active{
+    color: rgb(109, 12, 109);
+
+} */
+
+
+.Link{
+    display: block;
+}
+
 
 .options:hover{
+    color: #b3b3ffa6;
+}
+
+.toggleOptions{
+    display: block;
+    border-bottom: 2px solid white;   
+    height: 38px;
+    margin: 80% 0px; 
+    cursor: pointer;
+}
+
+.toggleOptions:hover{
     color: thistle;
 }
+
+
+
+
+
 img{
     width: 32px;
     cursor: pointer;
@@ -109,6 +154,9 @@ li::before {
     width: 100%;
     border-radius: 5px;
     background-color: #333366;
+
+    
+    text-align: center;
 }
 
 .AboutMe{
@@ -130,16 +178,6 @@ li::before {
         display: none;
     }
 
-    /* .fastPage{
-        margin: 2% 0% 50%;
-        font-size: 58px;
-    }
-
-    .Skills{
-        display: block;
-        height: 350px;
-        margin: 310px 4%;
-    } */
 }
 
 
@@ -162,11 +200,40 @@ li::before {
         height: 500px;
     }
 
+
     .midTextFastPage{
       font-size: 15px;
+    }
+
+    .Skills{
+        margin: 350px 4%;
     }
 
     img{
         width: 25px;
     }
+
+    .toggleOptions{ 
+        height: 38px;
+        margin: 25% 0px; 
+    }
+
+    .toggleSideBar{
+        
+        font-size:25px;
+        width: 100%;
+
+    }
+
+    .toggleOptions{
+        margin-top: 35%;
+
+    }
+
+    .CvPart{
+        margin: -150% 0px;
+    }
+
+
+    
 }

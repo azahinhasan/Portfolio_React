@@ -12,9 +12,12 @@ class scrollTo extends Component {
     return (
     <div className={classes.scrollTo}>
         <Link 
-        // className={classes.options}
+        className={classes.Link}
+        onClick={this.props.toggleBar}
         to={this.props.to}
         smooth={true} 
+        offset={-5}
+        spy={true}
         duration={800}>
             {this.props.name}
         </Link>

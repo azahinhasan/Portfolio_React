@@ -1,0 +1,40 @@
+.DrawerToggle {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color:#b7b7eca6;
+    margin:5px 5px;
+    position:fixed;
+    top:0;
+    border-radius: 5px;
+}
+
+.DrawerToggle div {
+    width: 80%;
+    height: 5px;
+    background-color: #333366b0;
+    margin:4px;
+}
+
+.DrawerToggle:hover {
+    background-color:#b7b7ecce;
+    animation:forwards;
+}
+
+@media (min-width: 901px) {
+    .DrawerToggle {
+        display: none;
+    }
+}
+
+@media (max-device-width: 901px) {
+    /* .DrawerToggle {
+     
+    } */
+}

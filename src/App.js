@@ -7,22 +7,49 @@ import Projects from './components/projects';
 import CvPart from './components/CVpart';
 import AboutMe from './components/aboutMe';
 import classes from './App.css';
+import ToggleSideBar from './components/toggleSideBar';
+import DrawerToggle from './components/drawerToggle';
 class App extends Component {
-  render() {
 
+  state = {
+    showToggleSideBar:false,
+    start:true,
+  }
+
+  showToggleSideBarHandler =()=>{
+      this.setState({showToggleSideBar : !this.state.showToggleSideBar});
+  }
+  startHandler =()=>{
+    this.setState({start : true});
+}
+
+  render() {
     let bodyData='';
 
-  return (
-    <div className="App">
-       
-        <div className={classes.AllInfo}>
-            <FastPage/>
+    bodyData= <FastPage startClick={this.startHandler}/>
+
+    if(this.state.start){
+      bodyData=(
+        <div>
+           <div className={classes.AllInfo}>
+            <FastPage start={this.state.start}/>
             <AboutMe/>
             <Skills/>
             <Projects/>
-            {/* <CvPart/> */}
         </div>
+
         <SideBar/>
+        <ToggleSideBar 
+        toggleBar={this.showToggleSideBarHandler}
+        showToggleSideBar = {this.state.showToggleSideBar}
+        />
+        </div>
+      )
+    }
+
+  return (
+    <div className="App">
+      {bodyData}
     </div>
 
 
