@@ -21,12 +21,16 @@ class Skills extends Component {
             <li>React.js</li>
             <li>Redux</li>
             <li>Google FireBase</li>
-            <li>Usages of APIs/sqlDB</li>
+            <li>Usages of APIs</li>
+            <li>Mysql</li>
+            <li>C#</li>
+            <li>ASP.Net</li>
             <li>Ajax</li>
             <li>PHP</li>
+            <li>C/C++</li>
             <li>JAVA</li>
-            <li>ASP.Net</li>
-            <li>C#</li>
+            <li>JAVA Swing</li>
+            <li>Bootstrap</li>
             <li>Python</li>
             <li>Windows Apps</li>
             <li>Assembly language</li>

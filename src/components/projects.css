@@ -90,14 +90,27 @@ td:nth-child(even){
 @media (max-width: 556px) {
 
     .Projects{
-        margin: 550px 4%;
+        margin: 750px 4%;
     }
     
 }
 
-@media (max-width: 1226px) {
+@media (max-width: 1280px) and (min-width: 556px) {
     .Data {
         width: 100%;
+    }
+
+    .Projects{
+        margin: 450px 4%;
+    }
+
+}
+
+
+@media (max-device-width: 900px) {
+
+    .Projects{
+        margin: 580px 4%;
     }
 
 }
