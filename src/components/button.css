@@ -1,5 +1,5 @@
 .startButton {
-    background-color: #333366; 
+    background-color: #006466; 
     border: none;
     
     color: white;
@@ -13,7 +13,7 @@
     cursor: pointer;
     width: 150px;
     border-radius: 5px;
-    border: 2px solid #333366;
+    border: 2px solid #006466;
   }
 
 
@@ -23,14 +23,14 @@
   }
   .startButton:hover {
     background-color: #ffffff;
-    color: #333366;
+    color: #006466;
   }
 
 
   .CVButton {
     background-color: #ffffff; 
     border: none;
-    color: #333366;
+    color: #006466;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
@@ -47,7 +47,7 @@
   }
 
   .CVButton:hover {
-    background-color: #333366;
+    background-color: #006466;
     color: #ffffff;
   }
 

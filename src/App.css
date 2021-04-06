@@ -10,13 +10,13 @@
   */
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #333366; 
+  background: #006466; 
   border-radius: 2px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #3e3e7c; 
+  background: #034d4e; 
 }
 
 
@@ -33,7 +33,7 @@
 
 @media (max-width: 900px) {
   .AllInfo{
-    left: 10%;
+    left: 8%;
     width:87%;
   }
   
