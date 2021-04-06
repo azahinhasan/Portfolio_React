@@ -19,7 +19,7 @@ class AboutMe extends Component {
             <span className={classes.highlightPra}> Dhaka, Bangladesh </span> 🏡.
             Also, I have experience with <span className={classes.highlightPra}>Full-Stack WebDevelopment</span> and
             <span className={classes.highlightPra}> Windows Application</span> 🤓. I shared some 
-            of my works at 'Works' part of the site 😄.
+            of my works in 'Works' part of the site 😄.
         </p>
     </div>
 
