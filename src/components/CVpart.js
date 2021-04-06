@@ -8,13 +8,18 @@ import Icons from './icons';
 import File from "../files/Zahin's_CV.pdf";
 
 class FastPage extends Component {
+
+    alert  =()=>{
+        alert ("Temporary Disabled! You Can Mail me by clicking 'Let's Talk' :) ");
+    }
   render() {
 
     return (
     <div className={classes.CvPart} id='CV'>
         <h1 className={classes.CVH1}>My CV</h1>
         <br/>
-        <a href={File} download>
+        <a onClick={this.alert }>
+        {/* <a href={File} download onClick={this.alert }> */}
             <button className={classesBtn.CVButton}>
                 Download CV
             </button>
