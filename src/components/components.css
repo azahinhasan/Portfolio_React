@@ -153,12 +153,12 @@ li::before {
     display: block;
     position:absolute;
     
-    border: 1px solid #006466;
+    border: 1px solid #004e50;
     bottom: 0;
     margin: -1300px 0px;
     width: 100%;
     border-radius: 5px 5px 0 0;
-    background-color: #006466;
+    background-color: #004e50;
     text-align: center;
 }
 
