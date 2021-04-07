@@ -16,7 +16,7 @@ class FastPage extends Component {
 
     return (
     <div className={classes.CvPart} id='CV'>
-        
+        <br/>
         <h1 className={classes.CVH1}>My CV</h1>
         <br/>
         <a onClick={this.alert }>
