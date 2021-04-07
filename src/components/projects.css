@@ -139,7 +139,23 @@ Table {
 @media (max-device-width: 900px) {
 
     .Projects{
-        margin: 580px 4%;
+        margin: 550px 4%;
     }
 
 }
+@media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+
+    .Projects{
+        margin: 750px 4%;
+    }
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+  }
+  
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+  }

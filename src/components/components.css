@@ -45,7 +45,7 @@ h1:hover,h2:hover{
     display: block;
     border-bottom: 2px solid white;   
     height: 38px;
-    margin: 57% 0px; 
+    margin: 60% 0px; 
     cursor: pointer;
     
 }
@@ -240,7 +240,7 @@ li::before {
         
         font-size:22px;
         width: 100%;
-        overflow:scroll;
+        overflow-y:scroll;
 
     }
 
@@ -258,11 +258,41 @@ li::before {
     
 }
 
+
+@media (max-height : 800px) {
+
+    .sideBar::-webkit-scrollbar-thumb, 
+    .toggleSideBar::-webkit-scrollbar-thumb{
+        background: #036b6d8c; 
+        border-radius: 2px;
+    }
+    .sideBar::-webkit-scrollbar-thumb:hover,
+    .toggleSideBar::-webkit-scrollbar-thumb:hover{
+        background: #036b6d8c; 
+    }
+
+    .sideBar,.toggleSideBar{
+        overflow-y: scroll;
+    }
+}
+
+
 @media (max-device-width: 450px) {
+
     .AboutMe{
         margin: 360px 4%;
     }
     .Skills{
         margin: 400px 4%;
     }
+}
+
+
+@media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+
+    .CvPart{
+        margin: -1100px 0;
+    }
+
 }
