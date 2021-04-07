@@ -27,11 +27,14 @@
     animation:forwards;
 }
 
-@media (min-width: 901px) {
+
+@media (min-width: 1141px) {
     .DrawerToggle {
         display: none;
     }
 }
+
+
 
 @media (max-device-width: 901px) {
     /* .DrawerToggle {

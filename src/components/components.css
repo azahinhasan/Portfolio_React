@@ -15,7 +15,7 @@ h1:hover,h2:hover{
     color: white;
     font-size:22px;
     font-weight: bold;
-    width: 200px;
+    width: 280px;
     text-align:center;
     height: 100vh;
     margin: 0px 0;
@@ -30,7 +30,7 @@ h1:hover,h2:hover{
     color: white;
     font-size:22px;
     font-weight: bold;
-    width: 200px;
+    width: 280px;
     text-align:center;
     height: 100vh;
     position: fixed;
@@ -45,7 +45,7 @@ h1:hover,h2:hover{
     display: block;
     border-bottom: 2px solid white;   
     height: 38px;
-    margin: 60% 0px; 
+    margin: 45% 0px; 
     cursor: pointer;
     
 }
@@ -73,7 +73,7 @@ h1:hover,h2:hover{
     display: block;
     border-bottom: 2px solid white;   
     height: 38px;
-    margin: 60% 0px; 
+    margin: 45% 0px; 
     cursor: pointer;
 }
 
@@ -186,12 +186,13 @@ li::before {
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1140px) {
     .sideBar{
         display: none;
     }
     .CvPart,.CvPart:hover{
-        margin: -1000px 0px;
+        margin: -1100px 0px;
+        position: fixed;
     }
 
 }
