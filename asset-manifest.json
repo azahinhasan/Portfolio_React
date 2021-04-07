@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio_React/static/css/main.e2d06672.chunk.css",
-    "main.js": "/Portfolio_React/static/js/main.3613c3e1.chunk.js",
-    "main.js.map": "/Portfolio_React/static/js/main.3613c3e1.chunk.js.map",
-    "runtime-main.js": "/Portfolio_React/static/js/runtime-main.13b8fe44.js",
-    "runtime-main.js.map": "/Portfolio_React/static/js/runtime-main.13b8fe44.js.map",
-    "static/js/2.50c8e38e.chunk.js": "/Portfolio_React/static/js/2.50c8e38e.chunk.js",
-    "static/js/2.50c8e38e.chunk.js.map": "/Portfolio_React/static/js/2.50c8e38e.chunk.js.map",
-    "static/js/3.6e188a2c.chunk.js": "/Portfolio_React/static/js/3.6e188a2c.chunk.js",
-    "static/js/3.6e188a2c.chunk.js.map": "/Portfolio_React/static/js/3.6e188a2c.chunk.js.map",
+    "main.css": "/Portfolio_React/static/css/main.1df31c5d.chunk.css",
+    "main.js": "/Portfolio_React/static/js/main.c02101f4.chunk.js",
+    "main.js.map": "/Portfolio_React/static/js/main.c02101f4.chunk.js.map",
+    "runtime-main.js": "/Portfolio_React/static/js/runtime-main.a6ab848a.js",
+    "runtime-main.js.map": "/Portfolio_React/static/js/runtime-main.a6ab848a.js.map",
+    "static/js/2.1935fac3.chunk.js": "/Portfolio_React/static/js/2.1935fac3.chunk.js",
+    "static/js/2.1935fac3.chunk.js.map": "/Portfolio_React/static/js/2.1935fac3.chunk.js.map",
+    "static/js/3.d3f1f1e0.chunk.js": "/Portfolio_React/static/js/3.d3f1f1e0.chunk.js",
+    "static/js/3.d3f1f1e0.chunk.js.map": "/Portfolio_React/static/js/3.d3f1f1e0.chunk.js.map",
     "index.html": "/Portfolio_React/index.html",
-    "static/css/main.e2d06672.chunk.css.map": "/Portfolio_React/static/css/main.e2d06672.chunk.css.map",
-    "static/js/2.50c8e38e.chunk.js.LICENSE.txt": "/Portfolio_React/static/js/2.50c8e38e.chunk.js.LICENSE.txt",
+    "static/css/main.1df31c5d.chunk.css.map": "/Portfolio_React/static/css/main.1df31c5d.chunk.css.map",
+    "static/js/2.1935fac3.chunk.js.LICENSE.txt": "/Portfolio_React/static/js/2.1935fac3.chunk.js.LICENSE.txt",
     "static/media/Zahin's_CV.1187ef13.pdf": "/Portfolio_React/static/media/Zahin's_CV.1187ef13.pdf",
     "static/media/gitHub.31107150.png": "/Portfolio_React/static/media/gitHub.31107150.png",
     "static/media/gitHub.859a3f3c.svg": "/Portfolio_React/static/media/gitHub.859a3f3c.svg",
@@ -19,9 +19,9 @@
     "static/media/logo.6ce24c58.svg": "/Portfolio_React/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.13b8fe44.js",
-    "static/js/2.50c8e38e.chunk.js",
-    "static/css/main.e2d06672.chunk.css",
-    "static/js/main.3613c3e1.chunk.js"
+    "static/js/runtime-main.a6ab848a.js",
+    "static/js/2.1935fac3.chunk.js",
+    "static/css/main.1df31c5d.chunk.css",
+    "static/js/main.c02101f4.chunk.js"
   ]
 }
