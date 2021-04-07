@@ -101,6 +101,7 @@
 .ContactMeTryAgain:hover  {
   background-color: #006466;
   color:  white;
+  border: 2px solid white;
   /* box-shadow: 0 5px 6px -2px #777; */
 }
 

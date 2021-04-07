@@ -7,6 +7,7 @@ import ScrollTo from './scrollTo';
 import Icons from './icons';
 import File from "../files/Zahin's_CV.pdf";
 import emailjs from 'emailjs-com';
+import Loading from './loading';
 // npm install emaom --save
 //more on https://www.emailjs.com/
 class ContactMe extends Component {
@@ -14,32 +15,67 @@ class ContactMe extends Component {
     state = {
         sucessMsg: 'none',
         loading:false,
-        alartMsg:false
+        alartMsg:false,
+        name:'',
+        email:'',
+        message:''
     }
 
     sendEmail =(e)=> {
-        e.preventDefault();
-        emailjs.sendForm('service_7i9ekae', 'template_rt6st9r', e.target, 'user_Zee47QM7ACUCuhA4B1PF2')
-        .then((result) => {
-        console.log(result.text);
+            this.setState({loading:true});
+            e.preventDefault();
+            emailjs.sendForm('service_7i9ekae', 'template_rt6st9r', e.target, 'user_Zee47QM7ACUCuhA4B1PF2')
+            .then((result) => {
+            this.setState({loading:false});
+            console.log(result.text);
 
-        this.sucessMsgHandlerS();
+            this.sucessMsgHandlerS();
+            }, (error) => {
 
-        }, (error) => {
-        console.log(error.text);
-        this.sucessMsgHandlerF();
-        });
+            this.setState({loading:false});
+            console.log(error.text);
+            this.sucessMsgHandlerF();
+            });
+       
+
         }
 
+    formValidation=(e)=>{
+        if(this.state.name !='' && this.state.email !='' &&  this.state.message !=''){
+            this.sendEmail(e);
+        }
+        else{
+            this.setState({alartMsg:true});
+            e.preventDefault();
+        }
+    }
+
+    emptyAllDatas=()=>{
+        this.setState({name : '',email:'',massage:''});
+    }
     sucessMsgHandlerS=()=>{
-            this.setState({sucessMsg : 'success'});
+            this.setState({sucessMsg : 'success',alartMsg:false});
+            this.emptyAllDatas();
         }
     sucessMsgHandlerF=()=>{
-            this.setState({sucessMsg : 'failed'});
+            this.setState({sucessMsg : 'failed',alartMsg:false});
+            this.emptyAllDatas();
         }
-    sucessMsgHandlerNone=(data)=>{
-            this.setState({sucessMsg : 'none'})
+    sucessMsgHandlerNone=()=>{
+            this.setState({sucessMsg : 'none'});
+            this.emptyAllDatas();
         }
+
+    nameChangeHandler =(event)=>{
+        this.setState({name: event.target.value})
+    }
+    emailChangeHandler =(event)=>{
+        this.setState({email: event.target.value})
+    }
+    messageChangeHandler =(event)=>{
+        this.setState({message: event.target.value})
+    }
+
 
 
 render() {
@@ -47,23 +83,36 @@ render() {
 
     if(this.state.sucessMsg == 'none'){
     data = (
-        <form onSubmit={this.sendEmail}>
-        <h1>Let's Talk</h1>
-        <input type='text' placeholder='Name*' name='name'/>
-        <input type='email'  placeholder='Email*' name='email'/>
-
-        <textarea placeholder='Message*' name='message'>
-
-        </textarea>
-        <br/>
-        <button onClick={this.sucessMsgHandler} 
-        className={classesBtn.ContactMeSubmit} 
-        type='submit'>
-            Sent
-        </button>
-    </form>
+        <form onSubmit={this.formValidation}>
+            <h1>Let's Talk</h1>
+            <input type='text' placeholder='Name*' onChange={this.nameChangeHandler} name='name'/>
+            <input type='email'  placeholder='Email*' onChange={this.emailChangeHandler} name='email'/>
+            <textarea placeholder='Message*' onChange={this.messageChangeHandler} name='message'/>
+            <br/>
+            { this.state.alartMsg?
+            <div className={classes.alartMsg}>
+                Please FillUp all TextBoxs
+            </div> :null}
+            <br/>
+            <button onClick={this.sucessMsgHandler} 
+            className={classesBtn.ContactMeSubmit} 
+            type='submit'>
+                Sent
+            </button>
+        </form>
     )
-    }else if(this.state.sucessMsg == 'success'){
+    }
+    
+    if(this.state.loading){
+        data =(
+            <form>
+                <Loading/>
+            </form>
+        )
+    }
+    ///////////////////////////sucess or faileddddd
+    
+    else if(this.state.sucessMsg == 'success'){
         data =(
             <form>
                 <h1>Let's Talk</h1>
@@ -75,7 +124,10 @@ render() {
                 </button>
             </form>
         )
-    }else if(this.state.sucessMsg === 'failed'){
+    }
+    
+    
+    else if(this.state.sucessMsg === 'failed'){
         data =(
             <form>
                 <h1>Let's Talk</h1>
@@ -89,12 +141,16 @@ render() {
         )
     }
 
+
     return (
     <div className={classes.ContactMe} id='CV'>
         <hr/>
         <br/>
 
         {data}
+
+       
+
 
     </div>
 

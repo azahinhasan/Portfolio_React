@@ -51,6 +51,12 @@ form{
     margin: 15% 0;
 }  
 
+.alartMsg{
+    color: rgb(245, 181, 181);
+    font-size: 18px;
+    font-weight: bold;
+}
+
 @media (max-device-width: 900px) {
 
 
