@@ -52,6 +52,36 @@
   }
 
 
+  .ContactMeSubmit{
+    /* padding: 10px 20px;    */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 0px 0px 30px ; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #006466; 
+    color: black; 
+    border: 2px solid white;
+    position: relative;
+    width: 120px;
+    height: 55px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+
+    
+}
+
+.ContactMeSubmit:hover  {
+    background-color: white;
+    color:  #006466;
+    /* box-shadow: 0 5px 6px -2px #777; */
+}
+
+
+
   @media (max-width: 900px) {
 
 
@@ -71,3 +101,4 @@
   }
 
 }
+

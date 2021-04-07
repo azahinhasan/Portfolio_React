@@ -155,7 +155,7 @@ li::before {
     
     border: 1px solid #006466;
     bottom: 0;
-    margin: -160% 0px;
+    margin: -1300px 0px;
     width: 100%;
     border-radius: 5px 5px 0 0;
     background-color: #006466;
@@ -177,14 +177,24 @@ li::before {
     color: #006466;
 }
 
-@media (max-width: 900px) {
-    .sideBar{
-        display: none;
+
+
+@media (max-width: 1280px) {
+    .CvPart,.CvPart:hover{
+        margin: -1100px 0px;
     }
 
 }
 
+@media (max-width: 900px) {
+    .sideBar{
+        display: none;
+    }
+    .CvPart,.CvPart:hover{
+        margin: -1000px 0px;
+    }
 
+}
 
 @media (max-device-width: 900px) {
 
@@ -238,9 +248,7 @@ li::before {
     }
 
     .CvPart{
-        margin: -150% 0px;
+        /* margin: -280% 0px; */
     }
-
-
     
 }

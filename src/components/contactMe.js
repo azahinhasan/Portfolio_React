@@ -7,7 +7,8 @@ import ScrollTo from './scrollTo';
 import Icons from './icons';
 import File from "../files/Zahin's_CV.pdf";
 import emailjs from 'emailjs-com';
-
+// npm install emaom --save
+//more on https://www.emailjs.com/
 class ContactMe extends Component {
 
     sendEmail =(e)=> {
@@ -35,7 +36,7 @@ render() {
 
             </textarea>
             <br></br>
-            <button type='submit'>Sent</button>
+            <button className={classesBtn.ContactMeSubmit} type='submit'>Sent</button>
 
         </form>
 

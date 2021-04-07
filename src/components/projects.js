@@ -56,7 +56,6 @@ class Projects extends Component {
           })}
         {/* </div> */}
 
-          <br/>
           <CvPart/> 
         </div>
 
