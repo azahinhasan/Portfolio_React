@@ -125,3 +125,10 @@
 
 }
 
+
+
+@media (max-device-width: 450px) {
+    .CVButton{
+      width: 150px;
+    }
+}

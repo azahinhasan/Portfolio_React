@@ -8,7 +8,7 @@ import Icons from './icons';
 import File from "../files/Zahin's_CV.pdf";
 import emailjs from 'emailjs-com';
 import Loading from './loading';
-// npm install emaom --save
+// npm install emailjs-com --save
 //more on https://www.emailjs.com/
 class ContactMe extends Component {
 
@@ -84,14 +84,13 @@ render() {
     if(this.state.sucessMsg == 'none'){
     data = (
         <form onSubmit={this.formValidation}>
-            <h1>Let's Talk</h1>
             <input type='text' placeholder='Name*' onChange={this.nameChangeHandler} name='name'/>
             <input type='email'  placeholder='Email*' onChange={this.emailChangeHandler} name='email'/>
             <textarea placeholder='Message*' onChange={this.messageChangeHandler} name='message'/>
             <br/>
             { this.state.alartMsg?
             <div className={classes.alartMsg}>
-                Please FillUp all TextBoxs
+                Please Fillup all TextBoxs
             </div> :null}
             <br/>
             <button onClick={this.sucessMsgHandler} 
@@ -115,7 +114,6 @@ render() {
     else if(this.state.sucessMsg == 'success'){
         data =(
             <form>
-                <h1>Let's Talk</h1>
                 <p className={classes.ContactMeTrySuc}>Your Massage Send Successfully!</p> 
                 <button 
                 onClick={this.sucessMsgHandlerNone} 
@@ -130,7 +128,6 @@ render() {
     else if(this.state.sucessMsg === 'failed'){
         data =(
             <form>
-                <h1>Let's Talk</h1>
                 <p className={classes.ContactMeTrySuc}>Your Massage Send Successfully!</p> 
                 <button 
                 onClick={this.sucessMsgHandlerNone} 
@@ -143,10 +140,10 @@ render() {
 
 
     return (
-    <div className={classes.ContactMe} id='CV'>
+    <div className={classes.ContactMe} id='contactMe'>
         <hr/>
         <br/>
-
+        <h1>Let's Talk</h1>
         {data}
 
        

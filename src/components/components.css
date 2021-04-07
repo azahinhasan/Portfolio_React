@@ -45,7 +45,7 @@ h1:hover,h2:hover{
     display: block;
     border-bottom: 2px solid white;   
     height: 38px;
-    margin: 80% 0px; 
+    margin: 57% 0px; 
     cursor: pointer;
     
 }
@@ -73,7 +73,7 @@ h1:hover,h2:hover{
     display: block;
     border-bottom: 2px solid white;   
     height: 38px;
-    margin: 80% 0px; 
+    margin: 60% 0px; 
     cursor: pointer;
 }
 
@@ -232,7 +232,7 @@ li::before {
 
     .toggleOptions{ 
         height: 38px;
-        margin: 25% 0px; 
+        margin: 20% 0px; 
     }
 
     .toggleSideBar{
@@ -243,7 +243,7 @@ li::before {
     }
 
     .toggleOptions{
-        margin: 18% 0%;
+        margin: 20% 0%;
 
     }
 
@@ -251,4 +251,13 @@ li::before {
         /* margin: -280% 0px; */
     }
     
+}
+
+@media (max-device-width: 450px) {
+    .AboutMe{
+        margin: 360px 4%;
+    }
+    .Skills{
+        margin: 400px 4%;
+    }
 }

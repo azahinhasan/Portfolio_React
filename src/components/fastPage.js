@@ -11,7 +11,7 @@ class FastPage extends Component {
   render() {
     
     return (
-    <div className={classes.fastPage}>
+    <div className={classes.fastPage} id='home'>
         <span className={classes.midTextFastPage}>Hi there,</span><br/>
       <TypeWritter
         onInit={(type)=>{

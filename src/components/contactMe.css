@@ -70,6 +70,8 @@ form{
 }
 
 @media (max-device-width: 900px) {
-
+    input,textarea{
+        width: 80%;
+    }
 
 }

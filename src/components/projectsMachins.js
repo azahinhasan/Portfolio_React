@@ -8,8 +8,8 @@ class ProjectsMac extends Component {
   render() {
     return (
 
-    <div className={classes.p}>
-        <table>
+    <div className={classes.ProjectsMac}>
+        {/* <table>
         <tr>
             {this.props.leng.map(p =>{
                 return(
@@ -18,7 +18,14 @@ class ProjectsMac extends Component {
             })
             }
             </tr>
-        </table>
+        </table> */}
+        {this.props.leng.map(p =>{
+                return(
+                    <span>{p}</span> 
+                )
+            })
+        }
+
     </div>
 
 

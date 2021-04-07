@@ -14,6 +14,7 @@ class ToggleSideBar extends Component {
        
         {this.props.showToggleSideBar ? 
             <div  className={classes.toggleSideBar}>
+                <div className={classes.toggleOptions}  onClick={this.props.toggleBar}><ScrollTo toggleBar={this.props.toggleBar} name='Home' to='home'/></div>
                 <div className={classes.toggleOptions} onClick={this.props.toggleBar}><ScrollTo toggleBar={this.props.toggleBar} name='About Me' to='AboutMe'/></div>
                 <div className={classes.toggleOptions} onClick={this.props.toggleBar}><ScrollTo toggleBar={this.props.toggleBar} name='Skills' to='skills'/></div>
                 <div className={classes.toggleOptions} onClick={this.props.toggleBar}><ScrollTo toggleBar={this.props.toggleBar} name='Works' to='projects'/></div>
