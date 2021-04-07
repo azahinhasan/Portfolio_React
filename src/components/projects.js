@@ -7,6 +7,7 @@ import CvPart from './CVpart';
 class Projects extends Component {
 
   state={
+      filterName:'All',
       data:[
         {pName:'Weather App',type:'WebApp',leng:['ReactJS','CSS'],sourceCode:' https://github.com/azahinhasan/weatherApp_React',liveView:'https://azahinhasan.github.io/weatherApp_React/'},
         {pName:'Covid19 Tracker',type:'WebApp',leng:['ReactJS','CSS'],sourceCode:' https://github.com/azahinhasan/covid19_tracker_React.js',liveView:' https://azahinhasan.github.io/covid19_tracker_React.js/#/home'},
@@ -28,17 +29,17 @@ class Projects extends Component {
         // {pName:'',type:'',leng:['VanillaJS','HTML'],sourceCode:'',liveView:''},
       ]
   }
-  render() {
-    return (
 
-    <div className={classes.Projects} id="projects">
-      <Line/>
-      <br/>
-      <h1>Works</h1>
-      <div className={classes.Datas} >
-{/* 
-      <div className={classes.DatasBoxes} > */}
-        {this.state.data.map(data=>{
+  filterNameChangeHandler=(event)=>{
+    this.setState({filterName:event.target.value});
+  }
+  render() {
+
+    let data='';
+
+    if(this.state.filterName === 'All'){
+      data=(
+        this.state.data.map(data=>{
           return(
             <div className={classes.Data}>
               <div className={classes.pName}>{data.pName}</div>
@@ -52,15 +53,68 @@ class Projects extends Component {
               {data.liveView != ''? <span>||<a href={data.liveView} target='_blank'> LiveView</a></span>:null}
               <br/><br/>
             </div>
-          )
-          })}
+          )})
+      )
+    }
+    else{
+      console.log('type: ',this.state.filterName);
+      data=(
+        
+        this.state.data.map(data=>{
+          if(data.type === this.state.filterName){
+            return(
+              <div className={classes.Data}>
+                <div className={classes.pName}>{data.pName}</div>
+                <div className={classes.pType}>[ {data.type} ]</div>
+                <br/>
+                <div>
+                  <ProjectsMac leng = {data.leng}/>
+                </div>
+                <br/>
+                <a href={data.sourceCode} target='_blank'>SourceCode </a>
+                {data.liveView != ''? <span>||<a href={data.liveView} target='_blank'> LiveView</a></span>:null}
+                <br/><br/>
+              </div>
+            )
+          }
+        })
+      )
+    }
+    return (
+
+    <div className={classes.Projects} id="projects">
+      <Line/>
+      <br/>
+      <h1>Works</h1>
+
+      {/* <div className={classes.FiltersButtonPart}>
+          <button className={classesBtn.FiltersButton}>All</button>
+          <button className={classesBtn.FiltersButton}>WebSites/WebApp</button>
+          <button className={classesBtn.FiltersButton}>Windows Apps</button>
+          <button className={classesBtn.FiltersButton}>Others</button>
+      </div> */}
+
+      <div>
+        FilterByType : 
+        <select onChange={this.filterNameChangeHandler}>
+          <option value='All'>All</option>
+          <option value='WebApp'>Web Apps</option>
+          <option value='WebSite'>WebSites</option>
+          <option value='WindowsApp'>Windows Apps</option>
+          <option value='WindowsProgram'>Windows Programs</option>
+        </select>
+      </div>
+      <div className={classes.Datas} >
+
+{/* 
+      <div className={classes.DatasBoxes} > */}
+          {data}
+          
         {/* </div> */}
 
           <CvPart/> 
         </div>
 
-      <br/>
-        {/* <CvPart/> */}
     </div>
 
 
