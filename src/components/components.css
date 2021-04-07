@@ -21,7 +21,6 @@ h1:hover,h2:hover{
     margin: 0px 0;
     position: fixed;
     top: 0%;
-
     box-shadow: 5px 5px 10px grey;
 }
 
@@ -37,6 +36,7 @@ h1:hover,h2:hover{
     position: fixed;
     top: 0%;
     box-shadow: 5px 5px 10px grey;
+    
 }
 
 
@@ -233,20 +233,25 @@ li::before {
     .toggleOptions{ 
         height: 38px;
         margin: 20% 0px; 
+
     }
 
     .toggleSideBar{
         
         font-size:22px;
         width: 100%;
+        overflow:scroll;
 
     }
 
     .toggleOptions{
-        margin: 20% 0%;
+        margin: 10% 0%;
 
     }
 
+    .toggleOptionsTopSpace{
+        margin-top: 20%;
+    }
     .CvPart{
         /* margin: -280% 0px; */
     }
