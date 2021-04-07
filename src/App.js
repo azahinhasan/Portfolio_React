@@ -9,6 +9,8 @@ import AboutMe from './components/aboutMe';
 import classes from './App.css';
 import ToggleSideBar from './components/toggleSideBar';
 import DrawerToggle from './components/drawerToggle';
+
+import ContactMe from './components/contactMe';
 class App extends Component {
 
   state = {
@@ -28,6 +30,7 @@ class App extends Component {
 
     bodyData= <FastPage startClick={this.startHandler}/>
 
+    
     if(this.state.start){
       bodyData=(
         <div>
@@ -43,6 +46,7 @@ class App extends Component {
         toggleBar={this.showToggleSideBarHandler}
         showToggleSideBar = {this.state.showToggleSideBar}
         />
+         {/* <ContactMe/> */}
         </div>
       )
     }
@@ -50,6 +54,7 @@ class App extends Component {
   return (
     <div className="App">
       {bodyData}
+     
     </div>
 
 

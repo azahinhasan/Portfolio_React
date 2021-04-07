@@ -36,6 +36,8 @@ class Projects extends Component {
       <br/>
       <h1>Works</h1>
       <div className={classes.Datas} >
+{/* 
+      <div className={classes.DatasBoxes} > */}
         {this.state.data.map(data=>{
           return(
             <div className={classes.Data}>
@@ -52,6 +54,8 @@ class Projects extends Component {
             </div>
           )
           })}
+        {/* </div> */}
+
           <br/>
           <CvPart/> 
         </div>

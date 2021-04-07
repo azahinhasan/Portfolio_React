@@ -122,7 +122,7 @@ a:link, a:visited {
     display: block;
     /* border: 1px solid black; */
     height: 280px;
-    margin: 250px 4%;
+    margin: 280px 4%;
     position: relative;
     /* border-bottom: 2px solid rgb(0, 0, 0);  */
 }
@@ -148,19 +148,20 @@ li::before {
     color: white;
     margin: 0 5px;
 }
-.CvPart{
+
+.CvPart,.CvPart:hover{
     display: block;
     position:absolute;
-    border: 1px solid black;
-    bottom: 0;
-    margin: -250px 0px;
-    width: 100%;
-    border-radius: 5px;
-    background-color: #006466;
-
     
+    border: 1px solid #006466;
+    bottom: 0;
+    margin: -160% 0px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    background-color: #006466;
     text-align: center;
 }
+
 
 .AboutMe{
     display: block;

@@ -11,13 +11,13 @@
 
 }
 
+
 /* .Data:hover,
 .Data:active {
     background-color: #C0DDF5;
 } */
 
 .Datas {
-
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -26,7 +26,13 @@
     position: relative;
     align-items: left;
     justify-content: left;
+    
 }
+
+.Data:hover{
+    background-color: #ebf3f3;
+}
+
 
 a:link, a:visited {
     font-weight: 500;
@@ -51,7 +57,7 @@ td {
     font-weight:500;
 }
 
-td:nth-child(even){
+td:nth-child(even),td:nth-child(even):hover{
     background-color: #006466;
     color:white;
 }
@@ -71,7 +77,7 @@ td:nth-child(even){
 .Projects{
     display: block;
     height: 350px;
-    margin: 10px 4%;
+    margin: 300px 4%;
 }
 
 

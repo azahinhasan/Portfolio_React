@@ -6,7 +6,7 @@ import { Link } from 'react-scroll'
 import ScrollTo from './scrollTo';
 import Icons from './icons';
 import File from "../files/Zahin's_CV.pdf";
-
+import ContactMe from './contactMe';
 class FastPage extends Component {
 
     alert  =()=>{
@@ -16,6 +16,7 @@ class FastPage extends Component {
 
     return (
     <div className={classes.CvPart} id='CV'>
+        
         <h1 className={classes.CVH1}>My CV</h1>
         <br/>
         <a onClick={this.alert }>
@@ -26,12 +27,13 @@ class FastPage extends Component {
         </a>
         
 
-        <a href="mailto:azahinhasan@gmail.com?subject=Wanna Contact with You" target='_blank'>
+        {/* <a href="mailto:azahinhasan@gmail.com?subject=Wanna Contact with You" target='_blank'>
             <button className={classesBtn.CVButton}>
                 Let's Talk
             </button>
-        </a>
+        </a> */}
 
+        <ContactMe/>
     </div>
 
 
