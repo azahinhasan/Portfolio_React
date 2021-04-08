@@ -13,7 +13,7 @@ import Reveal   from 'react-reveal/Reveal';
 class FastPage extends Component {
 
     alert  =()=>{
-        alert ("Temporary Disabled! You Can Mail me by clicking 'Let's Talk' :) ");
+        alert ("Temporary Disabled! You Can Mail from 'Let's Talk' part. I will send you the CV :) ");
     }
   render() {
 
