@@ -95,13 +95,13 @@ class Projects extends Component {
       </div> */}
 
       <div className={classes.ProjectFilter}>
-        <span>FilterByType : </span> 
+        <span className={classes.ProjectFilterText}>FilterByType : </span> 
         <select className={classes.ProjectFilterOptions} onChange={this.filterNameChangeHandler}>
           <option value='All'>All</option>
           <option value='WebApp'>Web Apps</option>
           <option value='WebSite'>WebSites</option>
           <option value='WindowsApp'>Windows Apps</option>
-          <option value='WindowsProgram'>Windows Programs</option>
+          <option value='WindowsProgram'>Programs</option>
         </select>
       </div>
 
