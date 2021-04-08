@@ -199,6 +199,19 @@ li::before {
     margin: 0 5px;
 }
 
+.H1animation{
+    animation: winggles 5s;
+    animation-iteration-count:initial;
+}
+
+@keyframes  winggles{
+    0% {transform: rotate(10deg);}
+    25% {transform: rotate(-10deg);}
+    50% {transform: rotate(20deg);}
+    75% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
+}
+
 .CvPart,.CvPart:hover{
     display: block;
     position:absolute;

@@ -71,14 +71,14 @@ form{
 
 
 
-.ContactMe h1{
-    animation: slidein 5s;
+/* .ContactMe h1{
+    animation: winggle 5s;
     animation-iteration-count:initial;
 
 }
 
 
-@keyframes  slidein{
+@keyframes winggle{
 
     0% {transform: rotate(10deg);}
     25% {transform: rotate(-10deg);}
@@ -86,30 +86,20 @@ form{
     75% {transform: rotate(-5deg);}
     100% {transform: rotate(0deg);}
   }
-  
+   */
+   
+.H1animation{
+    animation: winggles 5s;
+    animation-iteration-count:initial;
+}
 
-  
-@-webkit-keyframes wiggle {
-    0% {-webkit-transform: rotate(10deg);}
-    25% {-webkit-transform: rotate(-10deg);}
-    50% {-webkit-transform: rotate(20deg);}
-    75% {-webkit-transform: rotate(-5deg);}
-    100% {-webkit-transform: rotate(0deg);}
-  }
-  
-  @-ms-keyframes wiggle {
-    0% {-ms-transform: rotate(1deg);}
-    25% {-ms-transform: rotate(-1deg);}
-    50% {-ms-transform: rotate(1.5deg);}
-    75% {-ms-transform: rotate(-5deg);}
-    100% {-ms-transform: rotate(0deg);}
-  }
-  
-  @keyframes wiggle {
-  
-
-  }
-
+@keyframes  winggles{
+    0% {transform: rotate(10deg);}
+    25% {transform: rotate(-10deg);}
+    50% {transform: rotate(20deg);}
+    75% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
+}
 
 
 

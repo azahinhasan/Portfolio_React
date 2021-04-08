@@ -7,6 +7,9 @@ import ScrollTo from './scrollTo';
 import Icons from './icons';
 import File from "../files/Zahin's_CV.pdf";
 import ContactMe from './contactMe';
+import Reveal   from 'react-reveal/Reveal';
+//npm install react-reveal --save
+//https://www.react-reveal.com/tutorials/
 class FastPage extends Component {
 
     alert  =()=>{
@@ -17,7 +20,9 @@ class FastPage extends Component {
     return (
     <div className={classes.CvPart} id='CV'>
         <br/>
-        <h1 className={classes.CVH1}>My CV</h1>
+        <Reveal effect={classes.H1animation}>
+            <h1 className={classes.CVH1}>My CV</h1>
+        </Reveal>
         <br/>
         <a onClick={this.alert }>
         {/* <a href={File} download onClick={this.alert }> */}

@@ -10,6 +10,11 @@ import emailjs from 'emailjs-com';
 import Loading from './loading';
 // npm install emailjs-com --save
 //more on https://www.emailjs.com/
+
+import Reveal   from 'react-reveal/Reveal';
+//npm install react-reveal --save
+//https://www.react-reveal.com/tutorials/
+
 class ContactMe extends Component {
 
     state = {
@@ -143,7 +148,9 @@ render() {
     <div className={classes.ContactMe} id='contactMe'>
         <hr/>
         <br/>
-        <h1>Let's Talk</h1>
+        <Reveal effect={classes.H1animation}>
+            <h1>Let's Talk</h1>
+        </Reveal>
         {data}
 
        
