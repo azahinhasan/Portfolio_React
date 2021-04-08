@@ -94,9 +94,9 @@ class Projects extends Component {
           <button className={classesBtn.FiltersButton}>Others</button>
       </div> */}
 
-      <div>
-        FilterByType : 
-        <select onChange={this.filterNameChangeHandler}>
+      <div className={classes.ProjectFilter}>
+        <span>FilterByType : </span> 
+        <select className={classes.ProjectFilterOptions} onChange={this.filterNameChangeHandler}>
           <option value='All'>All</option>
           <option value='WebApp'>Web Apps</option>
           <option value='WebSite'>WebSites</option>
@@ -104,6 +104,7 @@ class Projects extends Component {
           <option value='WindowsProgram'>Windows Programs</option>
         </select>
       </div>
+
       <div className={classes.Datas} >
 
 {/* 

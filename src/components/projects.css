@@ -1,5 +1,5 @@
 .Data {
-    width: 420px;
+    width: 441px;
     text-align: center;
     border: 2px solid #006466;
     box-sizing: border-box;
@@ -92,8 +92,29 @@ a:hover{
     margin: 300px 4%;
 }
 
+.ProjectFilter{
+    display: block;
+    border: 50% 50%;
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    /* left: 75%; */
+    /* border: 1px solid black; */
 
+    float: right;   /*for change postion********/
+    margin: 20px 5px;
+    
+}
 
+.ProjectFilterOptions{
+    border:2px solid #006466;
+    width: 170px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
 
 @media (max-width: 1900px) {
     .Data {

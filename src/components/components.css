@@ -5,7 +5,13 @@ h1,h2{
 h1:hover,h2:hover{
     /* animation: wiggle 0.6s; */
     text-decoration:underline  dotted;
+    /* animation: wiggle 0.5s;
+    animation-iteration-count: infinite; */
+
 }
+
+
+
 
 
 
@@ -23,6 +29,26 @@ h1:hover,h2:hover{
     top: 0%;
     box-shadow: 5px 5px 10px grey;
 }
+
+.sideBar {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count:initial;
+  }
+
+@keyframes slidein {
+    from  {
+        font-size: 0px;
+        margin-left: 0%;
+        width: 0%;
+    }
+    to {
+      margin-left: 0%;
+      width: 280px;
+    }
+  }
+
+
 
 .toggleSideBar{
     display:block;
@@ -103,6 +129,7 @@ img:hover{
     font-size: 68px;
     font-weight: bold;
     height: 700px;
+    overflow: hidden;
 
 }
 
@@ -111,6 +138,29 @@ img:hover{
     font-size: 20px;
     text-decoration: underline;
 }
+
+.fastPageAnimation{
+    color: #006466;
+    font-size: 20px;
+    text-decoration: underline;
+    animation-duration: 3s;
+    animation-name: slideinFastPage;
+    animation-iteration-count:initial;
+    
+}
+
+
+
+@keyframes slideinFastPage {
+    from  {
+        margin-right: -800px;
+        width: 150%;
+    }
+    to {
+      margin-right: 0;
+      width: 100%;
+    }
+  }
 
 a:link, a:visited {
     color: white;
@@ -179,6 +229,7 @@ li::before {
 
 
 
+
 @media (max-width: 1280px) {
     .CvPart,.CvPart:hover{
         margin: -1100px 0px;
@@ -192,7 +243,6 @@ li::before {
     }
     .CvPart,.CvPart:hover{
         margin: -1100px 0px;
-        position: fixed;
     }
 
 }
@@ -210,7 +260,7 @@ li::before {
     }
 
     .fastPage{
-        margin: 20% 0% 50%;
+        margin: 30% 0% 50%;
         font-size: 50px;
         height: 500px;
     }
@@ -293,7 +343,7 @@ li::before {
     /* For general iPad layouts */
 
     .CvPart{
-        margin: -1100px 0;
+        margin: -1100px -4%;
     }
 
 }

@@ -12,7 +12,11 @@ class FastPage extends Component {
     
     return (
     <div className={classes.fastPage} id='home'>
+
+      <span className={classes.fastPageAnimation}>
         <span className={classes.midTextFastPage}>Hi there,</span><br/>
+      </span>
+
       <TypeWritter
         onInit={(type)=>{
           type
@@ -24,12 +28,14 @@ class FastPage extends Component {
         }}
       
       />
-
-        <div><span className={classes.midTextFastPage}>FullStack Web and Windows App Developer</span></div>
-        <Icons/>
-        <button onClick={this.props.startClick} className={classesBtn.startButton}>
-            <ScrollTo name='Start' to='AboutMe'/>
-        </button>
+      <span className={classes.fastPageAnimation}>
+          <span className={classes.midTextFastPage}>FullStack Web and Windows App Developer</span>
+      </span>
+      <span className={classes.fastPageAnimation}>
+          <Icons/></span>  
+          <button onClick={this.props.startClick} className={classesBtn.startButton}>
+              <ScrollTo name='Start' to='AboutMe'/>
+          </button>
         
     </div>
 
