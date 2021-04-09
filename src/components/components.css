@@ -370,3 +370,18 @@ li::before {
     }
 
 }
+
+
+
+@media only screen   
+and (max-height: 750px)  { 
+
+    .fastPage{
+        margin: 60px 0% ;
+    }
+    .options,.toggleOptions{
+        margin: 30% 0px; 
+    }
+
+}
+
