@@ -21,6 +21,7 @@ class Icons extends Component {
         <a href='tel: +8801515667288' target='_blank'><img src={Phn}/></a>
       </span>
         <br/>
+        
       <span className={classes.fastPageAnimation}>
         <a href='https://www.facebook.com/a.h.zahin/' target='_blank'><img src={FB}/></a>
         <a href='https://github.com/azahinhasan' target='_blank'><img src={GitHub}/></a>

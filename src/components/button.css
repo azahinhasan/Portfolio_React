@@ -2,33 +2,49 @@
     background-color: #006466; 
     border: none;
     
-    color: white;
-    padding: 16px 32px;
+    color: #006466;
+   padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 25px;
+    font-size: 20px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    width: 150px;
+    width: 125px;
+    height: 45px;
     border-radius: 5px;
     border: 2px solid #006466;
+    outline: none;
+
+    background: linear-gradient(to right, #006466 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
   }
 
 
-.startButton:hover:after {
+/* .startButton:hover:after {
     font-weight: bold;
     content:" ↓↓";
-  }
+  } */
+
   .startButton:hover {
-    background-color: #ffffff;
+    /* background-color: #ffffff;
+    color: #006466; */
+    color: white;  
+    background-position: left bottom;
+  }
+
+
+
+
+  .btnTextHomePage:hover{
     color: #006466;
   }
 
 
   .CVButton {
-    background-color: #ffffff; 
     border: none;
     color: #006466;
     padding: 16px 32px;
@@ -43,12 +59,20 @@
     border-radius: 5px;
     border: 2px solid #ffffff;
     font-weight: bold;
+    outline: none;
+    background: linear-gradient(to left, #006466 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-out;
 
   }
 
   .CVButton:hover {
-    background-color: #006466;
-    color: #ffffff;
+    /* background-color: #006466;
+    color: #ffffff; */
+
+    color: white;  
+    background-position: right bottom;
   }
 
 
@@ -70,14 +94,22 @@
     text-align: center;
     color: white;
     border-radius: 5px;
+    outline: none;
+    background: linear-gradient(to right, white 50%, #006466 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+
 
     
 }
 
 .ContactMeSubmit:hover  {
-    background-color: white;
-    color:  #006466;
+    /* background-color: white;
+    color:  #006466; */
     /* box-shadow: 0 5px 6px -2px #777; */
+    color: #006466;  
+    background-position: left bottom;
 }
 
 .ContactMeTryAgain{
@@ -132,9 +164,9 @@
   }
 
   .startButton {
-    font-size: 22px;
-    width: 120px;
-    height: 60px;
+    font-size: 18px;
+    width: 110px;
+    height: 45px;
   }
 
 }

@@ -11,10 +11,6 @@ h1:hover,h2:hover{
 }
 
 
-
-
-
-
 .sideBar{
     display:block;
     background-color: #004e50;
@@ -28,27 +24,11 @@ h1:hover,h2:hover{
     position: fixed;
     top: 0%;
     box-shadow: 5px 5px 10px grey;
-}
 
-.sideBar {
     animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count:initial;
-  }
-
-@keyframes slidein {
-    from  {
-        font-size: 0px;
-        margin-left: 0%;
-        width: 0%;
-    }
-    to {
-      margin-left: 0%;
-      width: 280px;
-    }
-  }
-
-
+}
 
 .toggleSideBar{
     display:block;
@@ -62,9 +42,22 @@ h1:hover,h2:hover{
     position: fixed;
     top: 0%;
     box-shadow: 5px 5px 10px grey;
-    
 }
+    
 
+
+
+@keyframes slidein {
+    from  {
+        font-size: 0px;
+        margin-left: 0%;
+        width: 0%;
+    }
+    to {
+      margin-left: 0%;
+      width: 280px;
+    }
+  }
 
 
 .options{
@@ -109,18 +102,27 @@ h1:hover,h2:hover{
 
 
 
+.icons{
+
+    margin: 20px 0;
+    display: block;
+    height: 100px;
+    /* background-color: burlywood; */
+}
 
 
 img{
+    padding: 2px 2px;
     width: 32px;
     cursor: pointer;
     margin: 8px 10px;
 }
 
 img:hover{
-    padding: 5px 2px;
     border-bottom: 2px solid #000000; 
+    width: 26px;
 }
+
 .fastPage{
     display: block;
     text-align: right;

@@ -31,10 +31,14 @@ class FastPage extends Component {
       <span className={classes.fastPageAnimation}>
           <span className={classes.midTextFastPage}>FullStack Web and Windows App Developer</span>
       </span>
+      <br/>
       <span className={classes.fastPageAnimation}>
-          <Icons/></span>  
+          <Icons/>
+      </span>  
           <button onClick={this.props.startClick} className={classesBtn.startButton}>
-              <ScrollTo name='Start' to='AboutMe'/>
+              <div className={classesBtn.btnTextHomePage}>
+                <ScrollTo className={classesBtn.btnTextHomePage} name='More Info' to='AboutMe'/>
+              </div>
           </button>
         
     </div>
