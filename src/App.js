@@ -62,3 +62,8 @@ class App extends Component {
 }
 
 export default App;
+
+
+//Bugs
+
+/* ToggleDwawer is not hidding when its alreadt opened */
