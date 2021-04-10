@@ -270,6 +270,29 @@ li::before {
 
 }
 
+@media only screen   
+and (max-height: 840px)  { 
+
+    .fastPage{
+        margin: 60px 0% ;
+    }
+    .options,.toggleOptions{
+        margin: 31% 0px; 
+    }
+
+}
+
+@media (max-height: 840px)  { 
+
+    .fastPage{
+        margin: 60px 0% ;
+    }
+    .options,.toggleOptions{
+        margin: 31% 0px; 
+    }
+
+}
+
 @media (max-device-width: 900px) {
 
     li{
@@ -392,25 +415,3 @@ li::before {
 
 
 
-@media only screen   
-and (max-height: 840px)  { 
-
-    .fastPage{
-        margin: 60px 0% ;
-    }
-    .options,.toggleOptions{
-        margin: 35% 0px; 
-    }
-
-}
-
-@media (max-height: 840px)  { 
-
-    .fastPage{
-        margin: 60px 0% ;
-    }
-    .options,.toggleOptions{
-        margin: 35% 0px; 
-    }
-
-}

@@ -14,9 +14,9 @@
     width: 125px;
     height: 45px;
     border-radius: 5px;
-    border: 2px solid #006466;
+    border: 3px solid #006466;
     outline: none;
-
+    font-weight: bold;
     background: linear-gradient(to right, #006466 50%, white 50%);
     background-size: 200% 100%;
     background-position: right bottom;
