@@ -283,13 +283,21 @@ li::before {
     }
 
     .fastPage{
-        margin: 30% 0% 50%;
+        margin: 27% 0% 00%;
         font-size: 50px;
-        height: 500px;
+        height:100vh;
+        background-color: rgb(255, 91, 91);
     }
 
     .AboutMePragraph{
         text-align: left;
+    }
+
+    .AboutMe{
+        /* background-color: rgb(255, 91, 91); */
+        display: block;
+        height: 80vh;
+        margin: 20px 0px 120px;
     }
 
     .midTextFastPage{
@@ -297,7 +305,9 @@ li::before {
     }
 
     .Skills{
-        margin: 350px 4%;
+        display: block;
+        height: 100vh;
+        margin: 0px 4% 60px;
     }
 
     img{
@@ -385,3 +395,13 @@ and (max-height: 840px)  {
 
 }
 
+@media (max-height: 840px)  { 
+
+    .fastPage{
+        margin: 60px 0% ;
+    }
+    .options,.toggleOptions{
+        margin: 35% 0px; 
+    }
+
+}
