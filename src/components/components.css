@@ -374,13 +374,13 @@ li::before {
 
 
 @media only screen   
-and (max-height: 750px)  { 
+and (max-height: 840px)  { 
 
     .fastPage{
         margin: 60px 0% ;
     }
     .options,.toggleOptions{
-        margin: 30% 0px; 
+        margin: 35% 0px; 
     }
 
 }
