@@ -1,0 +1,134 @@
+h1,h2{
+    text-decoration: underline;
+    color: #006466;
+}
+h1:hover,h2:hover{
+    /* animation: wiggle 0.6s; */
+    text-decoration:underline  dotted;
+    /* animation: wiggle 0.5s;
+    animation-iteration-count: infinite; */
+
+}
+
+
+
+
+.fastPage{
+    display: block;
+    text-align: right;
+
+    margin: 100px 0% ;
+    font-size: 68px;
+    font-weight: bold;
+    height: 900px;
+
+    background-color: cadetblue;
+
+}
+
+
+
+.fastPageAnimation{
+    color: #006466;
+    font-size: 20px;
+    text-decoration: underline;
+    animation-duration: 3s;
+    animation-name: slideinFastPage;
+    animation-iteration-count:initial;
+    
+}
+
+
+
+@keyframes slideinFastPage {
+    from  {
+        margin-right: -800px;
+        width: 150%;
+    }
+    to {
+      margin-right: 0;
+      width: 100%;
+    }
+  }
+
+a:link, a:visited {
+    color: white;
+
+    text-decoration: none;
+}
+
+
+
+
+.AboutMe{
+    display: block;
+    height: 20px;
+    margin: 0 4%;
+    background-color: cadetblue;
+}
+.AboutMe p{
+    font-size: 18px;
+}
+
+.highlightPra{
+    font-weight: bold;
+    color: #006466;
+}
+
+
+
+
+/* 
+@media (max-device-height: 749px)  {
+
+    .fastPage{
+        margin: 10% 0% 50%;
+        height: 90vh;
+
+    }
+
+    .AboutMe{
+        display: block;
+        height: 80vh;
+        margin: 0px 4% 0px;
+    }
+
+}
+
+@media (max-device-width: 450px) {
+
+    .AboutMe{
+        margin: 360px 4%;
+    }
+    .Skills{
+        margin: 400px 4%;
+    }
+}
+
+@media (max-device-width: 355px) {
+    .fastPage{
+        margin: 0% 0% 00%;
+        font-size: 50px;
+        height:105vh;
+    }
+
+}
+
+@media (max-height : 800px) {
+
+    .sideBar::-webkit-scrollbar-thumb, 
+    .toggleSideBar::-webkit-scrollbar-thumb{
+        background: #036b6d8c; 
+        border-radius: 2px;
+    }
+    .sideBar::-webkit-scrollbar-thumb:hover,
+    .toggleSideBar::-webkit-scrollbar-thumb:hover{
+        background: #036b6d8c; 
+    }
+
+    .sideBar,.toggleSideBar{
+        overflow-y: scroll;
+    }
+}
+*/
+

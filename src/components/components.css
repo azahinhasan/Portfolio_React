@@ -315,7 +315,7 @@ and (max-height: 840px)  {
     .fastPage{
         margin: 27% 0% 00%;
         font-size: 50px;
-        height:85vh;
+        height:75vh;
     }
 
     .AboutMePragraph{
@@ -326,17 +326,18 @@ and (max-height: 840px)  {
         /* background-color: rgb(255, 91, 91); */
         display: block;
         height: 20vh;
-        margin: 20px 4% 0px;
+        /* margin: -200px 4% 0px; */
     }
 
     .midTextFastPage{
-      font-size: 15px;
+        font-size: 15px;
     }
 
     .Skills{
         display: block;
-        height: 80vh;
-        margin: 0px 4% 0px;
+        height: 70vh;
+        margin: 100% 4% 0px;
+
     }
 
     img{
@@ -371,6 +372,33 @@ and (max-height: 840px)  {
     
 }
 
+@media (max-device-height: 930px) and (min-device-height: 650px) {
+
+    .fastPage{
+        margin: 40% 0% 00%;
+        font-size: 50px;
+    }
+
+}
+
+/* @media (max-device-height: 649px)  {
+
+    .fastPage{
+        margin: -100% 0% 0%;
+        height: 100px;
+        background-color: rgb(217, 195, 238);
+
+
+    }
+
+    .AboutMe{
+        display: block;
+        height: 80vh;
+        margin: 0px 4% 0px;
+    }
+
+} */
+
 @media (max-device-width: 450px) {
 
     .AboutMe{
@@ -383,9 +411,9 @@ and (max-height: 840px)  {
 
 @media (max-device-width: 355px) {
     .fastPage{
-        margin: 0% 0% 00%;
+        margin: 0% 0% 00;
         font-size: 50px;
-        height:105vh;
+        height:125vh;
     }
 
 }

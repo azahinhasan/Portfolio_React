@@ -41,7 +41,6 @@ class FastPage extends Component {
                 <ScrollTo className={classesBtn.btnTextHomePage} name='More Info' to='AboutMe'/>
               </div>
           </button>
-        
     </div>
 
 
