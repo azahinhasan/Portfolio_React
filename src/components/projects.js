@@ -11,7 +11,7 @@ class Projects extends Component {
       data:[
         {pName:'Weather App',type:'WebApp',leng:['ReactJS','CSS'],sourceCode:' https://github.com/azahinhasan/weatherApp_React',liveView:'https://azahinhasan.github.io/weatherApp_React/'},
         {pName:'Covid19 Tracker',type:'WebApp',leng:['ReactJS','CSS'],sourceCode:' https://github.com/azahinhasan/covid19_tracker_React.js',liveView:' https://azahinhasan.github.io/covid19_tracker_React.js/#/home'},
-        {pName:'To-do List with Auth',type:'WebApp',leng:['ReactJS','Firebase','CSS'],sourceCode:'https://azahinhasan.github.io/todoListV2_React_withAuth/#/SignIn',liveView:': https://azahinhasan.github.io/todoListV2_React_withAuth/#/SignIn'},
+        {pName:'To-do List with Auth',type:'WebApp',leng:['ReactJS','Firebase','CSS'],sourceCode:' https://github.com/azahinhasan/todoListV2_React_withAuth',liveView:'https://azahinhasan.github.io/todoListV2_React_withAuth/#/SignIn'},
         {pName:'WiFi Info QRcode Generator',type:'WebApp',leng:['ReactJS','CSS'],sourceCode:'https://github.com/azahinhasan/WiFi_Info_QRcode_Generator',liveView:'https://azahinhasan.github.io/WiFi_Info_QRcode_Generator/'},
         {pName:'Guess The Number',type:'WebSite',leng:['VanillaJS','HTML','CSS'],sourceCode:'https://github.com/azahinhasan/GuessTheNumber',liveView:'https://azahinhasan.github.io/GuessTheNumber/gamePage.html'},
         {pName:'Guess The Number V2',type:'WebSite',leng:['VanillaJS','HTML','CSS'],sourceCode:'https://github.com/azahinhasan/GuessTheNumber_V2',liveView:'https://azahinhasan.github.io/GuessTheNumber_V2/'},
