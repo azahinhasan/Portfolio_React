@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import classes from './projects.css';
 import classesBtn from './button.css';
 import ProjectsMac from './projectsMachins';
+import ProjectDescription from './projectDescription';
 import Line from './line';
 import CvPart from './CVpart';
 class Projects extends Component {
@@ -24,15 +25,43 @@ class Projects extends Component {
         {pName:'Prison Management System',type:'WindowsApp',leng:['JAVA','XAMPP SQL'],sourceCode:'https://github.com/azahinhasan/Prison_Management_System',liveView:''},
         {pName:'Set turnoff/restart/lock/sleep timer for Pc',type:'WindowsProgram',leng:['Python'],sourceCode:'https://github.com/azahinhasan/turnOFF_restart_lock_sleep_pc',liveView:''},
       
-        
-
         // {pName:'',type:'',leng:['VanillaJS','HTML'],sourceCode:'',liveView:''},
-      ]
+      ],Descriptions:[
+        {pName:'Weather App',description:'Users can find out the current Weather info from this WebApp. I take help from two open-source API. Which Provide me the Weather info. User Can search the location or there is a find out location option which will detect the current location automatically.'},
+        {pName:'Covid19 Tracker',description:''},
+        {pName:'To-do List with Auth',description:''},
+        {pName:'WiFi Info QRcode Generator',description:''},
+        {pName:'Guess The Number',description:'Users can find out the current Weather info from this WebApp. I take help from two open-source API. Which Provide me the Weather info. User Can search the location or there is a find out location option which will detect the current location automatically.'},
+        {pName:'Guess The Number V2',description:'Users can find out the current Weather info from this WebApp. I take help from two open-source API. Which Provide me the Weather info. User Can search the location or there is a find out location option which will detect the current location automatically.'},
+        {pName:'Word Counter',description:'Users can find out the current Weather info from this WebApp. I take help from two open-source API. Which Provide me the Weather info. User Can search the location or there is a find out location option which will detect the current location automatically.'},
+        {pName:'Download Time Calculator',description:'Users can find out the current Weather info from this WebApp. I take help from two open-source API. Which Provide me the Weather info. User Can search the location or there is a find out location option which will detect the current location automatically.'},
+        {pName:'Rock Paper Scissors',description:'Users can find out the current Weather info from this WebApp. I take help from two open-source API. Which Provide me the Weather info. User Can search the location or there is a find out location option which will detect the current location automatically.'},
+        {pName:'Blood Donation Project[Admin]',description:'Users can find out the current Weather info from this WebApp. I take help from two open-source API. Which Provide me the Weather info. User Can search the location or there is a find out location option which will detect the current location automatically.'},
+        {pName:'Coffee Shop Management',description:'Users can find out the current Weather info from this WebApp. I take help from two open-source API. Which Provide me the Weather info. User Can search the location or there is a find out location option which will detect the current location automatically.'},
+        {pName:'Tutor Finding',description:'Users can find out the current Weather info from this WebApp. I take help from two open-source API. Which Provide me the Weather info. User Can search the location or there is a find out location option which will detect the current location automatically.'},
+        {pName:'Prison Management System',description:''},
+        {pName:'Set turnoff/restart/lock/sleep timer for Pc',description:''},
+
+      ],
+      DescriptionOf:''
   }
 
   filterNameChangeHandler=(event)=>{
     this.setState({filterName:event.target.value});
   }
+
+  DescriptionHandler=(data)=>{
+
+    if(data!=this.state.DescriptionOf){
+      this.setState({DescriptionOf:data});
+    }else if(data==this.state.DescriptionOf){
+      this.setState({DescriptionOf:''});
+    }
+    
+
+   // console.log(data);
+  }
+
   render() {
 
     let data='';
@@ -48,6 +77,19 @@ class Projects extends Component {
               <div>
                 <ProjectsMac leng = {data.leng}/>
               </div>
+
+
+              <br/>
+                <span onClick={()=>this.DescriptionHandler(data.pName)}>Description</span>
+                {this.state.DescriptionOf == data.pName? 
+                    <div className={classes.Description}>
+                        <br/>
+                        <ProjectDescription AllDescription={this.state.Descriptions} DescriptionsOf={data.pName}/>
+                    </div>
+                :null}
+
+
+              <br/>
               <br/>
               <a href={data.sourceCode} target='_blank'>SourceCode </a>
               {data.liveView != ''? <span>||<a href={data.liveView} target='_blank'> LiveView</a></span>:null}
@@ -67,9 +109,12 @@ class Projects extends Component {
                 <div className={classes.pName}>{data.pName}</div>
                 <div className={classes.pType}>[ {data.type} ]</div>
                 <br/>
+
                 <div>
                   <ProjectsMac leng = {data.leng}/>
                 </div>
+
+
                 <br/>
                 <a href={data.sourceCode} target='_blank'>SourceCode </a>
                 {data.liveView != ''? <span>||<a href={data.liveView} target='_blank'> LiveView</a></span>:null}
