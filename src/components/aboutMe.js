@@ -14,12 +14,12 @@ class AboutMe extends Component {
         <Line/>
         <h1>About Me</h1>
         <p className={classes.AboutMePragraph}>
-            Hi, My nickname is <span className={classes.highlightPra}>Zahin</span> 🖐🏽. Currently,I am doing Bsc in
-            Computer Science & Engineering 💻 📚. It's my 11 Semester runing 😬 🏃🏽‍♂️. I live in 
-            <span className={classes.highlightPra}> Dhaka, Bangladesh </span> 🏡.
-            Also, I have experience with <span className={classes.highlightPra}>Full-Stack WebDevelopment</span> and
-            <span className={classes.highlightPra}> Windows Application</span> 🤓. I shared some 
-            of my works in 'Works' part of the site 😄. 
+            Hi, My nickname is <span className={classes.highlightPra}>Zahin</span> 🖐🏽. Currently, I am doing My BSc in
+            Computer Science & Engineering at AIUB 💻 📚. It's my 11 Semester running 😬 🏃🏽‍♂️. 
+            I live in <span className={classes.highlightPra}> Dhaka, Bangladesh </span> 🏠. My Hometown is <span className={classes.highlightPra}>Kushtia, Bangladesh</span> 🏡.
+            I like to travel ✈️🚂🚙, meeting with new People 🤝🏽, watching Movies/TV Series 📺, and Playing Games 🎮.
+            I have some knowledge in <span className={classes.highlightPra}>Full-Stack Web </span> and
+            <span className={classes.highlightPra}> Mobile Application </span>Development 🤓. 
         </p>
     </div>
 

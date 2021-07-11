@@ -60,6 +60,34 @@ a:hover{
 
 } */
 
+.DescriptionButton{
+    /* border: black 1px solid; */
+    font-weight: 500;
+    cursor: pointer;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.DescriptionButton:hover{
+    color: #015455;
+    text-decoration: underline;
+    
+}
+
+.Description{
+    /* animation-duration: 0.5s;
+    animation-name: slidein;
+    animation-iteration-count:initial; */
+/* 
+    max-height: 50em;
+    overflow:auto;
+    transition: max-height 5.5s, overflow 0.5s 0.5s; */
+}
+
+
+
+
 .ProjectsMac span {
     padding:3px 5px;
     border: 2px solid #006466;

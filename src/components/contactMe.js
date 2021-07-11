@@ -91,7 +91,7 @@ render() {
         <form onSubmit={this.formValidation}>
             <input type='text' placeholder='Name*' onChange={this.nameChangeHandler} name='name'/>
             <input type='email'  placeholder='Email*' onChange={this.emailChangeHandler} name='email'/>
-            <textarea placeholder='Message*' onChange={this.messageChangeHandler} name='message'/>
+            <textarea style={{fontFamily: 'Arial'}} placeholder='Message*' onChange={this.messageChangeHandler} name='message'/>
             <br/>
             { this.state.alartMsg?
             <div className={classes.alartMsg}>
@@ -119,7 +119,7 @@ render() {
     else if(this.state.sucessMsg == 'success'){
         data =(
             <form>
-                <p className={classes.ContactMeTrySuc}>Your Massage Send Successfully!</p> 
+                <p className={classes.ContactMeTrySuc}>Your Massage Send Successfully! 😄</p> 
                 <button 
                 onClick={this.sucessMsgHandlerNone} 
                 className={classesBtn.ContactMeTryAgain}>
@@ -133,7 +133,7 @@ render() {
     else if(this.state.sucessMsg === 'failed'){
         data =(
             <form>
-                <p className={classes.ContactMeTrySuc}>Your Massage Send Successfully!</p> 
+                <p className={classes.ContactMeTrySuc}>Your Massage Send Failed! 😞</p> 
                 <button 
                 onClick={this.sucessMsgHandlerNone} 
                 className={classesBtn.ContactMeTryAgain}>

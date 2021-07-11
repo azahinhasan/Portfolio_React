@@ -30,7 +30,7 @@ class FastPage extends Component {
       
       />
       <span className={classes.fastPageAnimation}>
-          <span className={classes.midTextFastPage}>FullStack Web and Windows App Developer</span>
+          <span className={classes.midTextFastPage}>FullStack Web and Mobile App Developer</span>
       </span>
       <br/>
       <span className={classes.fastPageAnimation}>

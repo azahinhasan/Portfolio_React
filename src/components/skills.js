@@ -19,7 +19,9 @@ class Skills extends Component {
             <li>JavaScript</li>
             <li>WebSites/WebApps</li>
             <li>React.js</li>
+            <li>React Native</li>
             <li>Redux</li>
+            <li>Laravel</li>
             <li>Google FireBase</li>
             <li>Usages of APIs</li>
             <li>Mysql</li>
