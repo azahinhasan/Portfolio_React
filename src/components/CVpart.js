@@ -24,6 +24,7 @@ class FastPage extends Component {
             <h1 className={classes.CVH1}>My CV</h1>
         </Reveal>
         <br/>
+        <br/>
         {/* <a onClick={this.alert }> */}
         <a href={File} download >
             <button className={classesBtn.CVButton}>
