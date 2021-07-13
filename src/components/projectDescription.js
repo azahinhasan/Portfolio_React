@@ -15,7 +15,7 @@ render() {
                return(
                   p.description!=''? 
                   <span>{p.description}</span> :
-                  <span>Discription is not Available! 😞</span>
+                  <span>Description is not Available! 😞</span>
                )
             }
          })

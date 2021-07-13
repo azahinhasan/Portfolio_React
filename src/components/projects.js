@@ -121,11 +121,20 @@ class Projects extends Component {
                   <ProjectsMac leng = {data.leng}/>
                 </div>
 
-
                 <br/>
-                <a href={data.sourceCode} target='_blank'>SourceCode </a>
-                {data.liveView != ''? <span>||<a href={data.liveView} target='_blank'> LiveView</a></span>:null}
-                <br/><br/>
+                <div className={classes.DescriptionButton} onClick={()=>this.DescriptionHandler(data.pName)}>{this.state.DescriptionOf == data.pName? <b style={{color:'#006466'}}>Description</b>:'Description'}</div>
+                
+                {this.state.DescriptionOf == data.pName? 
+                    <div className={classes.Description}>
+                        <br/>
+                        <ProjectDescription AllDescription={this.state.Descriptions} DescriptionsOf={data.pName}/>
+                    </div>
+                :null}
+
+              <br/>
+              <a href={data.sourceCode} target='_blank'>SourceCode </a>
+              {data.liveView != ''? <span>||<a href={data.liveView} target='_blank'> {data.type=='MobileApp'?'Download':'LiveView'}</a></span>:null}
+              <br/><br/>
               </div>
             )
           }
