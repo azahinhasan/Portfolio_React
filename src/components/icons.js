@@ -17,7 +17,7 @@ class Icons extends Component {
     return (
     <div className={classes.icons}>
       <span className={classes.fastPageAnimation}>
-        <a  className={classes.iconAngorTag} href="mailto:azahinhasan@gmail.com?subject=Wanna Contact with You" target='_blank'><img src={Mail}/></a>
+        <a  className={classes.iconAngorTag}  href="mailto:azahinhasan@gmail.com?subject=Wanna Contact with You" target='_blank'><img src={Mail}/></a>
         <a  className={classes.iconAngorTag}  href='tel: +8801515667288' target='_blank'><img src={Phn}/></a>
       </span>
         <br/>
