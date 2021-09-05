@@ -15,7 +15,7 @@ h1:hover,h2:hover{
     display:block;
     background-color: #004e50;
     opacity: .95;
-    color: white;
+    color: #C7D3D4FF; ;
     font-size:22px;
     font-weight: bold;
     width: 280px;
@@ -35,7 +35,7 @@ h1:hover,h2:hover{
     display:block;
     background-color: #004e50;
     opacity: .96;
-    color: white;
+    color: #C7D3D4FF;
     font-size:22px;
     font-weight: bold;
     width: 280px;
@@ -64,7 +64,7 @@ h1:hover,h2:hover{
 
 .options{
     display: block;
-    border-bottom: 2px solid white;   
+    border-bottom: 2px solid #C7D3D4FF;   
     height: 38px;
     margin: 45% 0px; 
     cursor: pointer;
@@ -83,16 +83,16 @@ h1:hover,h2:hover{
 
 
 .Link:hover{
-    color: #c7d4d4;
+    color: #b5c2c2;
 }
 
 .options:hover{
-    color: #c7d4d4;
+    color: #b5c2c2;
 }
 
 .toggleOptions{
     display: block;
-    border-bottom: 2px solid white;   
+    border-bottom: 2px solid #C7D3D4FF;   
     height: 38px;
     margin: 45% 0px; 
     cursor: pointer;
