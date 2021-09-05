@@ -17,16 +17,15 @@ class Skills extends Component {
             <li>HTML/HTML5</li>
             <li>CSS/CSS3</li>
             <li>JavaScript</li>
-            <li>WebSites/WebApps</li>
-            <li>React.js</li>
-            <li>React Native</li>
-            <li>Redux</li>
-            <li>Laravel</li>
-            <li>Google FireBase</li>
-            <li>Usages of APIs</li>
-            <li>Mysql</li>
             <li>C#</li>
             <li>ASP.Net</li>
+            <li>React.js</li>
+            <li>Laravel</li>
+            <li>React Native</li>
+            <li>Redux</li>
+            <li>Google FireBase</li>
+            <li>RESTful API</li>
+            <li>Mysql</li>
             <li>Ajax</li>
             <li>PHP</li>
             <li>C/C++</li>
@@ -34,7 +33,6 @@ class Skills extends Component {
             <li>JAVA Swing</li>
             <li>Bootstrap</li>
             <li>Python</li>
-            <li>Windows Apps</li>
             <li>Assembly language</li>
             <li>MatLAB</li>
             <li>Photoshop</li>
