@@ -3,7 +3,7 @@
     border: none;
 
     color: #006466;
-   padding: 8px 10px;
+    padding: 8px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -168,7 +168,7 @@
   .startButton {
     margin-top: 20px 0 20px;
     font-size: 18px;
-    width: 110px;
+    width: 120px;
     height: 45px;
   }
 
