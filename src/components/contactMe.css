@@ -43,11 +43,27 @@ textarea:-webkit-autofill:focus{
 }
 
 
+.bottomText{
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    color: #C7D3D4FF;
+    font-weight: bold;
+    font-size:16px;
 
-/* td form{
-    width: 250%;
-    border: 1px solid black;
-} */
+}
+
+table{
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+table td{
+    width: 50%;
+}
 
 
 form{

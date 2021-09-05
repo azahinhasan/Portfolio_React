@@ -161,10 +161,16 @@ render() {
         </div> */}
 
 
-{/* 
-            <hr/>
-Phone: +8801515667288 Email: azahinhasan@gamil.com
-            <hr/> */}
+            <div className={classes.bottomText}>
+                <hr/>
+                    <table>
+                        <tr>
+                            <td>+8801515667288</td>
+                            <td>azahinhasan@gmail.com</td>
+                        </tr>
+                    </table>
+                <hr/>
+            </div>
     </div>
 
 
