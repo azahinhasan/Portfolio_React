@@ -44,6 +44,12 @@ textarea:-webkit-autofill:focus{
 
 
 
+/* td form{
+    width: 250%;
+    border: 1px solid black;
+} */
+
+
 form{
     background-color: #004e50;
     width: 100%;

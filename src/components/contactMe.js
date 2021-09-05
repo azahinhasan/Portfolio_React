@@ -1,11 +1,6 @@
 import React,{Component} from 'react';
 import classes from './contactMe.css';
 import classesBtn from './button.css';
-import Line from './line';
-import { Link } from 'react-scroll'
-import ScrollTo from './scrollTo';
-import Icons from './icons';
-import File from "../files/Zahin's_CV.pdf";
 import emailjs from 'emailjs-com';
 import Loading from './loading';
 // npm install emailjs-com --save
@@ -88,22 +83,26 @@ render() {
 
     if(this.state.sucessMsg == 'none'){
     data = (
-        <form onSubmit={this.formValidation}>
-            <input type='text' placeholder='Name*' onChange={this.nameChangeHandler} name='name'/>
-            <input type='email'  placeholder='Email*' onChange={this.emailChangeHandler} name='email'/>
-            <textarea style={{fontFamily: 'Arial'}} placeholder='Message*' onChange={this.messageChangeHandler} name='message'/>
-            <br/>
-            { this.state.alartMsg?
-            <div className={classes.alartMsg}>
-                Please Fillup all TextBoxs
-            </div> :null}
-            <br/>
-            <button onClick={this.sucessMsgHandler} 
-            className={classesBtn.ContactMeSubmit} 
-            type='submit'>
-                Sent
-            </button>
-        </form>
+        <div>
+                    <form onSubmit={this.formValidation}>
+                    <input type='text' placeholder='Name*' onChange={this.nameChangeHandler} name='name'/>
+                    <input type='email'  placeholder='Email*' onChange={this.emailChangeHandler} name='email'/>
+                    <textarea style={{fontFamily: 'Arial'}} placeholder='Message*' onChange={this.messageChangeHandler} name='message'/>
+                    <br/>
+                    { this.state.alartMsg?
+                    <div className={classes.alartMsg}>
+                        Please Fillup all TextBoxs
+                    </div> :null}
+                    <br/>
+                    <button onClick={this.sucessMsgHandler} 
+                    className={classesBtn.ContactMeSubmit} 
+                    type='submit'>
+                        Sent
+                    </button>
+                </form>
+
+        </div>
+
     )
     }
     
@@ -152,11 +151,23 @@ render() {
             <h1>Let's Talk</h1>
         </Reveal>
         {data}
+        {/* <hr/>
+        <div>
+        Address: Mirpur-10,Dhaka-1216,Bangladesh
+                    <br/>
+                    Phone: +8801515667288
+                    <br/>
+                    Email: azahinhasan@gamil.com
+        </div> */}
 
-       
 
-
+{/* 
+            <hr/>
+Phone: +8801515667288 Email: azahinhasan@gamil.com
+            <hr/> */}
     </div>
+
+
 
 
 )}

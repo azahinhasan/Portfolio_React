@@ -1,12 +1,8 @@
 import React,{Component} from 'react';
 import classes from './components.css';
-import classesBtn from './button.css';
-import Line from './line';
-import { Link } from 'react-scroll'
-import ScrollTo from './scrollTo';
 import FB from '../icons/fb.png';
 import GitHub from '../icons/gitHub.svg';
-import GitHub1 from '../icons/gitHub.png';
+
 import LinkedIn from '../icons/linkedI.png';
 import Insta from '../icons/insta.png';
 import Mail from '../icons/mail.png';
@@ -20,6 +16,7 @@ class Icons extends Component {
         <a  className={classes.iconAngorTag}  href="mailto:azahinhasan@gmail.com?subject=Wanna Contact with You" target='_blank'><img src={Mail}/></a>
         <a  className={classes.iconAngorTag}  href='tel: +8801515667288' target='_blank'><img src={Phn}/></a>
       </span>
+      
         <br/>
         
       <span className={classes.fastPageAnimation}>
