@@ -10,7 +10,7 @@ class Projects extends Component {
   state={
       filterName:'All',
       data:[
-        {pName:'Laptop Shop E-commerce WebApp,',type:'WebApp',leng:['React.js','ASP.Net','Restful API','MsSql'],sourceCode:'https://github.com/azahinhasan/PcHardwareShop',liveView:''},
+        {pName:'Laptop Shop E-commerce WebApp',type:'WebApp',leng:['React.js','ASP.Net','Restful API','MsSql'],sourceCode:'https://github.com/azahinhasan/PcHardwareShop',liveView:''},
         {pName:'Anime Information',type:'MobileApp',leng:['React Native'],sourceCode:'https://github.com/azahinhasan/AnimeInfoApp_ReactNative',liveView:'https://github.com/azahinhasan/AnimeInfoApp_ReactNative/releases/tag/Beta'},
         {pName:'Weather App',type:'WebApp',leng:['ReactJS','CSS'],sourceCode:' https://github.com/azahinhasan/weatherApp_React',liveView:'https://azahinhasan.github.io/weatherApp_React/'},
         {pName:'Covid19 Tracker',type:'WebApp',leng:['ReactJS','CSS'],sourceCode:' https://github.com/azahinhasan/covid19_tracker_React.js',liveView:' https://azahinhasan.github.io/covid19_tracker_React.js/#/home'},
