@@ -1,7 +1,7 @@
 .startButton {
     background-color: #006466; 
     border: none;
-    
+
     color: #006466;
    padding: 8px 10px;
     text-align: center;
@@ -17,7 +17,7 @@
     border: 3px solid #006466;
     outline: none;
     font-weight: bold;
-    background: linear-gradient(to right, #006466 50%, white 50%);
+    background: linear-gradient(to right, #006466 50%,  #C7D3D4FF 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .5s ease-out;
@@ -58,10 +58,10 @@
     cursor: pointer;
     width: 50%;
     border-radius: 5px;
-    border: 2px solid #ffffff;
+    border: 2px solid #C7D3D4FF;
     font-weight: bold;
     outline: none;
-    background: linear-gradient(to left, #006466 50%, white 50%);
+    background: linear-gradient(to left, #01494b 50%, #C7D3D4FF 50%);
     background-size: 200% 100%;
     background-position: left bottom;
     transition: all .6s ease-out;
@@ -72,8 +72,9 @@
     /* background-color: #006466;
     color: #ffffff; */
 
-    color: white;  
+    color: #C7D3D4FF;  
     background-position: right bottom;
+    border: 2px solid #C7D3D4FF;
   }
 
 
@@ -87,16 +88,16 @@
     cursor: pointer;
     background-color: #006466; 
     color: black; 
-    border: 2px solid white;
+    border: 2px solid #C7D3D4FF;
     position: relative;
     width: 120px;
     height: 55px;
     font-weight: bold;
     text-align: center;
-    color: white;
+    color: #C7D3D4FF;
     border-radius: 5px;
     outline: none;
-    background: linear-gradient(to right, white 50%, #006466 50%);
+    background: linear-gradient(to right, #C7D3D4FF 50%, #01494b 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .5s ease-out;

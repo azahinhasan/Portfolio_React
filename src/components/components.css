@@ -14,6 +14,7 @@ h1:hover,h2:hover{
 .sideBar{
     display:block;
     background-color: #004e50;
+    opacity: .95;
     color: white;
     font-size:22px;
     font-weight: bold;
@@ -33,6 +34,7 @@ h1:hover,h2:hover{
 .toggleSideBar{
     display:block;
     background-color: #004e50;
+    opacity: .96;
     color: white;
     font-size:22px;
     font-weight: bold;
@@ -205,7 +207,7 @@ li::before {
 
 .CVH1{
 
-    color: white;
+    color: #C7D3D4FF;
     margin: 0 5px;
 }
 
