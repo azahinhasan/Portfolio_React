@@ -10,6 +10,9 @@ import Reveal   from 'react-reveal/Reveal';
 //npm install react-reveal --save
 //https://www.react-reveal.com/tutorials/
 
+import Email from '../icons/white/mail2.png';
+import Phn from '../icons/white/phn.png';
+import Address from '../icons/white/location 02-01.png';
 class ContactMe extends Component {
 
     state = {
@@ -160,15 +163,21 @@ render() {
                     Email: azahinhasan@gamil.com
         </div> */}
 
-
+            <br/> <br/>
             <div className={classes.bottomText}>
                 <hr/>
                     <table>
                         <tr>
-                            <td>+8801515667288</td>
-                            <td>azahinhasan@gmail.com</td>
+                            {/* <td><img src={Address}/> Mirpur-10,Dhaka-1216,Bangladesh</td> */}
+                            <td><img src={Phn}/> +8801515667288</td>
+                            <td><img src={Email}/> azahinhasan@gmail.com</td>
                         </tr>
                     </table>
+                {/* <hr/>
+                    <div>
+                    <img src={Address}/> Mirpur-10,Dhaka-1216,Bangladesh
+                    </div> */}
+
                 <hr/>
             </div>
     </div>
