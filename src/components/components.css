@@ -21,7 +21,7 @@ h1:hover,h2:hover{
     width: 280px;
     text-align:center;
     height: 100vh;
-    /* margin: 0px 0; */
+    margin: 5px 0;
     position: fixed;
     top: 0%;
     /* box-shadow: 5px 5px 10px grey; */
@@ -57,7 +57,7 @@ h1:hover,h2:hover{
 
 
 @keyframes slidein {
-    from  {
+    /* from  {
         font-size: 0px;
         margin-left: 0%;
         width: 0%;
@@ -65,7 +65,17 @@ h1:hover,h2:hover{
     to {
       margin-left: 0%;
       width: 280px;
+    } */
+
+    from  {
+        margin-left: -800px;
+        width: -150%;
     }
+    to {
+      margin-left: 0;
+      width: 280px;
+    }
+
   }
 
 
@@ -73,13 +83,13 @@ h1:hover,h2:hover{
     display: block;
     border-bottom: 2px solid #C7D3D4FF;   
     height: 38px;
-    margin: 45% 0px; 
+    /* margin: 47% 0px;  */
     cursor: pointer;
 
   /* changed made */
     border-radius: 0 0px 1px  0;
     padding:5px;
-    margin: 25% 0px; 
+    margin: 27% 0px; 
     border-bottom: 3px solid #004e50; 
     border-right: 3px solid #004e50; 
     color: #004e50;
@@ -87,7 +97,7 @@ h1:hover,h2:hover{
      background: linear-gradient(to left,#004e50 50%,  #C7D3D4FF 50%);
      background-size: 200% 100%;
      background-position: left bottom;
-     transition: all .3s ease-out;
+     transition: all .28s ease-out;
 
 }
 
@@ -169,7 +179,7 @@ h1:hover,h2:hover{
       margin-right: 0;
       width: 100%;
     }
-  }
+    }
 
 a:link, a:visited {
     color: white;
