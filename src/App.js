@@ -8,10 +8,11 @@ import CvPart from './components/CVpart';
 import AboutMe from './components/aboutMe';
 import classes from './App.css';
 import ToggleSideBar from './components/toggleSideBar';
-import DrawerToggle from './components/drawerToggle';
 
-import ContactMe from './components/contactMe';
+
 class App extends Component {
+
+  
 
   state = {
     showToggleSideBar:false,
