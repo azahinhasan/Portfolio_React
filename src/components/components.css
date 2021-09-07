@@ -413,6 +413,13 @@ and (max-height: 840px)  {
     
 }
 
+@media (max-width: 650px) {
+    .AboutMe{
+        margin: 360px 4%;
+    }
+
+}
+
 @media (max-device-height: 930px) and (min-device-height: 650px) {
 
     .fastPage{

@@ -169,7 +169,7 @@ render() {
                     <table>
                         <tr>
                             {/* <td><img src={Address}/> Mirpur-10,Dhaka-1216,Bangladesh</td> */}
-                            <td><img src={Phn}/> +8801515667288</td>
+                            <td style={{borderRight:'solid #C7D3D4FF 2px'}}><img src={Phn}/> +8801515667288</td>
                             <td><img src={Email}/> azahinhasan@gmail.com</td>
                         </tr>
                     </table>

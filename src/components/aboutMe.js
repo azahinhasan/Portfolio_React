@@ -10,6 +10,7 @@ class AboutMe extends Component {
     <div className={classes.AboutMe} id='AboutMe'>
         <Line/>
         <h1>About Me</h1>
+        <br/>
         <p className={classes.AboutMePragraph}>
             Hi, My nickname is <span className={classes.highlightPra}>Zahin</span> 🖐🏽. Currently, I am doing My BSc in
             Computer Science & Engineering at AIUB 💻 📚. It's my Final Semester running 😬 🏃🏽‍♂️. 
@@ -19,8 +20,6 @@ class AboutMe extends Component {
             <span className={classes.highlightPra}> Mobile Application </span>Development 🤓. 
         </p>
 
-        <br/>
-        {/* <Education/> */}
     </div>
 
 

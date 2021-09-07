@@ -142,12 +142,25 @@ form{
 
 @media (max-width: 615px) {
     .bottomText img{
-        margin-bottom:-2px;
+        margin-bottom:-6.5px;
+    }
+
+    
+    .bottomText{
+        font-size:13.5px;
+    }
+
+    .bottomText table{
+        width: 99%;
+    }
+
+    .bottomText img{
+        width:25px;
     }
 
 }
 
-@media (max-width: 420px) {
+@media (max-width: 449px) {
 
     
     .bottomText{
