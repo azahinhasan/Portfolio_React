@@ -7,10 +7,14 @@ import { Link } from 'react-scroll'
 
 class scrollTo extends Component {
 
+
+
+
   render() {
 
     return (
     <div className={classes.scrollTo}>
+    
         <Link className={classes.Link}
             onClick={this.props.toggleBar}
             to={this.props.to}
@@ -20,7 +24,6 @@ class scrollTo extends Component {
             duration={800}>
                 {this.props.name}
         </Link>
-        
     </div>
 
 

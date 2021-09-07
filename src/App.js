@@ -24,7 +24,16 @@ class App extends Component {
   }
   startHandler =()=>{
     this.setState({start : true});
-}
+  }
+
+  scrollToTop=()=> {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
+
 
   render() {
     let bodyData='';
@@ -35,12 +44,10 @@ class App extends Component {
     if(this.state.start){
       bodyData=(
         <div>
-           <div className={classes.AllInfo}>
+          <div className={classes.AllInfo}>
             <FastPage start={this.state.start}/>
             <AboutMe/>
-           
             <Skills/>
-
             <Projects/>
         </div>
 
@@ -57,7 +64,8 @@ class App extends Component {
   return (
     <div className="App">
       {bodyData}
-     
+    
+      {/* <button className={classes.ScrollToTop} onClick={()=>this.scrollToTop()}>TOP</button> */}
     </div>
 
 
