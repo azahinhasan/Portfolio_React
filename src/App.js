@@ -38,7 +38,9 @@ class App extends Component {
            <div className={classes.AllInfo}>
             <FastPage start={this.state.start}/>
             <AboutMe/>
+           
             <Skills/>
+
             <Projects/>
         </div>
 

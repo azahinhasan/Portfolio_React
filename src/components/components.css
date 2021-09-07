@@ -1,10 +1,11 @@
 h1,h2{
     text-decoration: underline;
     color: #006466;
+    text-align: center;
 }
 h1:hover,h2:hover{
     /* animation: wiggle 0.6s; */
-    text-decoration:underline  dotted;
+    /* text-decoration:underline  dotted; */
     /* animation: wiggle 0.5s;
     animation-iteration-count: infinite; */
 
