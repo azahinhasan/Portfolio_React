@@ -9,7 +9,7 @@ class Skills extends Component {
 
     return (
     <div className={classes.Skills} id="skills">
-        <Line/>
+        <Line color={'#006466'} width={"100%"}/>
         <br/>
         <h1>Skills</h1>
         <br/>

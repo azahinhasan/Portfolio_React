@@ -118,7 +118,7 @@ h1:hover,h2:hover{
 .options:hover{
     /* color: #b5c2c2; */
 
-    border-right-style: dashed ;
+    /* border-right-style: dashed ; */
 
     color: #C7D3D4FF;  
     background-position: right bottom;
@@ -145,7 +145,7 @@ h1:hover,h2:hover{
     display: block;
     text-align: right;
     /* padding: 20% 1%; */
-    margin: 190px 0% ;
+    margin: 165px 0% ;
     font-size: 68px;
     font-weight: bold;
     height: 700px;
@@ -316,7 +316,7 @@ img:hover{
 and (max-height: 840px)  { 
 
     .fastPage{
-        margin: 60px 0% ;
+        margin: 95px 0% ;
     }
     .options,.toggleOptions{
         margin: 31% 0px;
@@ -328,7 +328,7 @@ and (max-height: 840px)  {
 @media (max-height: 840px)  { 
 
     .fastPage{
-        margin: 60px 0% ;
+        margin: 95px 0% ;
     }
     .toggleOptions{
         margin: 31% 0px; 
@@ -340,6 +340,24 @@ and (max-height: 840px)  {
     
 
 }
+
+
+@media (max-height: 650px)  { 
+
+    .fastPage{
+        margin: 60px 0% ;
+    }
+    .toggleOptions{
+        margin: 31% 0px; 
+    }
+
+    .options{
+        margin: 15% 0px; 
+    }
+    
+
+}
+
 
 @media (max-device-width: 900px) {
 
@@ -466,7 +484,7 @@ and (max-height: 840px)  {
 
 }
 
-@media (max-height : 800px) {
+@media (max-height : 600px) {
 
     .sideBar::-webkit-scrollbar-thumb, 
     .toggleSideBar::-webkit-scrollbar-thumb{

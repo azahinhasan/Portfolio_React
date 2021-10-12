@@ -8,7 +8,7 @@ class AboutMe extends Component {
 
     return (
     <div className={classes.AboutMe} id='AboutMe'>
-        <Line/>
+        <Line color={'#006466'} width={"100%"}/>
         <h1>About Me</h1>
         <br/>
         <p className={classes.AboutMePragraph}>

@@ -147,7 +147,7 @@ class Projects extends Component {
     return (
 
     <div className={classes.Projects} id="projects">
-      <Line/>
+      <Line color={'#006466'} width={"100%"}/>
       <br/>
       <h1>Works</h1>
 

@@ -12,7 +12,7 @@ class FastPage extends Component {
     <div className={classes.fastPage} id='home'>
 
       <span className={classes.fastPageAnimation}>
-        <span className={classes.midTextFastPage}>Hi there,</span><br/>
+        <span className={classes.midTextFastPage}>Hi</span><br/>
       </span>
 
       <TypeWritter

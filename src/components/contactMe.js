@@ -6,6 +6,8 @@ import Loading from './loading';
 // npm install emailjs-com --save
 //more on https://www.emailjs.com/
 
+import Line from './line';
+
 import Reveal   from 'react-reveal/Reveal';
 //npm install react-reveal --save
 //https://www.react-reveal.com/tutorials/
@@ -148,7 +150,7 @@ render() {
 
     return (
     <div className={classes.ContactMe} id='contactMe'>
-        <hr/>
+        <Line color={'#C7D3D4FF'} width={"99%"}/>   
         <br/>
         <Reveal effect={classes.H1animation}>
             <h1>Let's Talk</h1>
@@ -165,20 +167,22 @@ render() {
 
             <br/> <br/>
             <div className={classes.bottomText}>
-                <hr/>
-                    <table>
-                        <tr>
-                            {/* <td><img src={Address}/> Mirpur-10,Dhaka-1216,Bangladesh</td> */}
-                            <td style={{borderRight:'solid #C7D3D4FF 2px'}}><img src={Phn}/> +8801515667288</td>
-                            <td><img src={Email}/> azahinhasan@gmail.com</td>
-                        </tr>
-                    </table>
+            <Line color={'#C7D3D4FF'} width={"99%"}/>   
+                <table>
+                    <tr>
+                        {/* <td><img src={Address}/> Mirpur-10,Dhaka-1216,Bangladesh</td> */}
+                        <td style={{borderRight:'solid #C7D3D4FF 2px'}}><img src={Phn}/> +8801515667288</td>
+                        <td><img src={Email}/> azahinhasan@gmail.com</td>
+                    </tr>
+                </table>
                 {/* <hr/>
                     <div>
                     <img src={Address}/> Mirpur-10,Dhaka-1216,Bangladesh
                     </div> */}
 
-                <hr/>
+            
+            <Line color={'#C7D3D4FF'} width={"99%"}/>   
+
             </div>
     </div>
 
