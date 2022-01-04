@@ -8,7 +8,7 @@ import CvPart from './components/CVpart';
 import AboutMe from './components/aboutMe';
 import classes from './App.css';
 import ToggleSideBar from './components/toggleSideBar';
-
+import ReactGA from 'react-ga';
 
 class App extends Component {
 
@@ -33,6 +33,13 @@ class App extends Component {
     });
   }
 
+
+  componentDidMount() {
+    console.log("componentDidMount");
+    //3128410948
+    ReactGA.initialize('UA-216199339-1');
+    ReactGA.pageview(window.location.pathname);
+  }
 
 
   render() {

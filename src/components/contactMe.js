@@ -43,7 +43,7 @@ class ContactMe extends Component {
             });
        
 
-        }
+    }
 
     formValidation=(e)=>{
         if(this.state.name !='' && this.state.email !='' &&  this.state.message !=''){
