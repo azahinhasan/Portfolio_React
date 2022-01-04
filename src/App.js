@@ -35,10 +35,10 @@ class App extends Component {
 
 
   componentDidMount() {
-    console.log("componentDidMount");
-    //3128410948
-    ReactGA.initialize('UA-216199339-1');
-    ReactGA.pageview(window.location.pathname);
+    // console.log("componentDidMount");
+    // //3128410948
+    // ReactGA.initialize('UA-216199339-1');
+    // ReactGA.pageview(window.location.pathname);
   }
 
 
